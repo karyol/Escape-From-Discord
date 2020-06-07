@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const auth = require('./auth.json');
+//const auth = require('./auth.json');
 
 const bot = new Discord.Client();
 
@@ -27,7 +27,6 @@ bot.on('message', message => {
 
             case 'w':
                 message.channel.send('https://escapefromtarkov.gamepedia.com/index.php?search=' + args + '&title=Special%3ASearch&go=Go');
-                message.author.send('tak');
             break;
 
             case 'help':
