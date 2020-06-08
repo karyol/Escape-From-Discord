@@ -30,7 +30,7 @@ bot.on('message', message => {
                 {
                     if(args[i] == '&nbsp')
                     {
-                        args = args.splice(i, 1, "_");
+                        args = args.splice(i, 1, '_');
                     }
                 }
                 message.channel.send(args);
