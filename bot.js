@@ -25,7 +25,7 @@ bot.on('message', message => {
         if(message.content.indexOf(config.prefix) !== 0) return;
 
         var args = message.content.substr(config.prefix.length).split(/ +/g);
-        var cmd = args[0].toLowerCase;
+        var cmd = args[0].toLowerCase();
         
         args = args.splice(1);
         switch(cmd)
