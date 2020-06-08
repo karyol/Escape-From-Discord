@@ -21,10 +21,6 @@ bot.on('message', message => {
         args = args.splice(1);
         switch(cmd)
         {
-            case 'hello':
-                message.channel.send('Hi!');
-            break;
-
             case 'w':
                 var temp;
                 var txt = args[0];
