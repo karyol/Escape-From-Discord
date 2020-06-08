@@ -28,8 +28,6 @@ bot.on('message', message => {
             case 'w':
                 var temp;
                 var txt = args[0];
-                console.log(args);
-                console.log(args.length);
                 for(var i = 1; i < args.length; i++)
                 {
                     temp = args[i];
