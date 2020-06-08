@@ -3,6 +3,12 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
+const config = 
+{
+    token: process.env.BOT_TOKEN,
+    prefix: process.env.PREFIX
+};
+
 const helpMessage = new Discord.MessageEmbed()
     .setColor('#d83ecc')
     .setTitle('Help')
@@ -13,9 +19,9 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-    if(message.content.substr(0, 4) == 'eft.')
+    if(message.content.substr(0, config.prefix.length) == config.prefix)
     {
-        var args = message.content.substr(4).split(' ');
+        var args = message.content.substr(config.prefix.length).split(' ');
         var cmd = args[0];
 
         args = args.splice(1);
@@ -43,4 +49,4 @@ bot.on('message', message => {
     }
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(config.token);
