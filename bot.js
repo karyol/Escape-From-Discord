@@ -28,9 +28,9 @@ bot.on('message', message => {
             case 'w':
                 for(var i = 0; i < args.length; i++)
                 {
-                    if(args[i] === '&nbsp')
+                    if(args[i] == '&nbsp')
                     {
-                        args[i] = ';';
+                        args = args.splice(i, 1);
                     }
                 }
                 message.channel.send(args);
