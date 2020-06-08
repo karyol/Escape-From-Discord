@@ -30,7 +30,7 @@ bot.on('message', message => {
                 {
                     if(args[i] === '&nbsp')
                     {
-                        args[i] = '&#95';
+                        args[i] = ';';
                     }
                 }
                 message.channel.send(args);
