@@ -19,7 +19,7 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-    if(message.content.substr(0, config.prefix.length).toLowerCase() == config.prefix)
+    if(message.content.substr(0, config.prefix.length) == config.prefix)
     {
         if(message.author.bot) return;
         if(message.content.indexOf(config.prefix) !== 0) return;
