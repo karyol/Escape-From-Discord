@@ -26,7 +26,7 @@ bot.on('message', message => {
             break;
 
             case 'w':
-                args = args.toString().replace('&nbsp', '_');
+                args = args.toString().replace('&nbsp', '&#95');
                 message.channel.send(args);
                 message.channel.send('https://escapefromtarkov.gamepedia.com/index.php?search=' + args + '&title=Special%3ASearch&go=Go');
             break;
