@@ -26,7 +26,7 @@ bot.on('message', message => {
             break;
 
             case 'w':
-                for(var i = 0; i < args.length(); i++)
+                for(var i = 0; i < args.length; i++)
                 {
                     if(args[i] === ' ')
                     {
