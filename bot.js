@@ -21,7 +21,7 @@ bot.on('ready', () => {
 bot.on('message', message => {
     if(message.content.substr(0, config.prefix.length) == config.prefix)
     {
-        var args = message.content.substr(config.prefix.length).split(' ');
+        var args = message.content.substr(config.prefix.length).split(/ +/g);
         var cmd = args[0];
 
         args = args.splice(1);
