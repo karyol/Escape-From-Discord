@@ -26,14 +26,8 @@ bot.on('message', message => {
             break;
 
             case 'w':
-                /*for(var i = 0; i < args.length; i++)
-                {
-                    if(args[i] == ',')
-                    {
-                        args = args.splice(i, 1, '_');
-                    }
-                }*/
-                message.channel.send(args);
+                console.log(args);
+                console.log(args.length);
                 message.channel.send('https://escapefromtarkov.gamepedia.com/index.php?search=' + args + '&title=Special%3ASearch&go=Go');
             break;
 
