@@ -47,6 +47,9 @@ keys.push(
     {id: 'key zb-014', name: 'Key ZB-014', merchantPrice: '3,476', marketPrice: '16,000', map: 'Woods'},
     {id: 'shturman key', name: 'Shturman key', merchantPrice: '265,212', marketPrice: '345,000', map: 'Woods'},
     {id: 'yotota car key', name: 'Yotota car key', merchantPrice: '750', marketPrice: '950', map: 'Woods'},
+    {id: 'factory exit key', name: 'Factory exit key', merchantPrice: '159,674', marketPrice: '158,999', map: 'Factory, Customs'},
+    {id: 'door key', name: 'Door key', merchantPrice: '3,953', marketPrice: '3,500', map: 'Factory'},
+    {id: 'door key (alternative)', name: 'Door key (alternative)', merchantPrice: '3,953', marketPrice: '3,900', map: 'Factory'},
     {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125', marketPrice: '675,000', map: 'Shoreline'},
     {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750', marketPrice: '150,000', map: 'Shoreline'}
 );
