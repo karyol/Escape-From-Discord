@@ -6,6 +6,7 @@ const keyMessage = new Discord.MessageEmbed()
     .setFooter('Market price may not be 100% accurate.');
 
 keys.push(
+    //Reserve
     {id: 'rb-bk key', name: 'RB-BK key', merchantPrice: '75,000', marketPrice: '75,000', map: 'Reserve'},
     {id: 'rb-vo key', name: 'RB-VO key', merchantPrice: '75,000', marketPrice: '79,500', map: 'Reserve'},
     {id: 'rb-ak key', name: 'RB-AK key', merchantPrice: '54,750', marketPrice: '200,000', map: 'Reserve'},
@@ -35,6 +36,7 @@ keys.push(
     {id: 'rb-rs key', name: 'RB-RS key', merchantPrice: '93,000', marketPrice: '115,000', map: 'Reserve'},
     {id: 'rb-rh key', name: 'RB-RH key', merchantPrice: '93,000', marketPrice: '128,887', map: 'Reserve'},
     {id: 'rb-pp key', name: 'RB-PP key', merchantPrice: '26,250', marketPrice: '409,888', map: 'Reserve'},
+    //Labs
     {id: 'lab. green keycard', name: 'Lab. Green keycard', merchantPrice: '147,000', marketPrice: '5,666,666', map: 'The Lab'},
     {id: 'lab. red keycard', name: 'Lab. Red keycard', merchantPrice: '5,400,000', marketPrice: '30,000,000', map: 'The Lab'},
     {id: 'lab. violet keycard', name: 'Lab. Violet keycard', merchantPrice: '2,475,000', marketPrice: '3,890,000', map: 'The Lab'},
@@ -44,12 +46,30 @@ keys.push(
     {id: 'lab. key. arsenal storage room', name: 'Lab. key. Arsenal storage room', merchantPrice: '75,000', marketPrice: '75,420', map: 'The Lab'},
     {id: 'lab. key. manager office', name: 'Lab. key. Manager office', merchantPrice: '259,215', marketPrice: '267,888', map: 'The Lab'},
     {id: 'lab. key. testing area (weap.)', name: 'Lab. key. Testing area (weap.)', merchantPrice: '75,000', marketPrice: '70,000', map: 'The Lab'},
+    //Woods
     {id: 'key zb-014', name: 'Key ZB-014', merchantPrice: '3,476', marketPrice: '16,000', map: 'Woods'},
     {id: 'shturman key', name: 'Shturman key', merchantPrice: '265,212', marketPrice: '345,000', map: 'Woods'},
     {id: 'yotota car key', name: 'Yotota car key', merchantPrice: '750', marketPrice: '950', map: 'Woods'},
+    //Factory
     {id: 'factory exit key', name: 'Factory exit key', merchantPrice: '159,674', marketPrice: '158,999', map: 'Factory, Customs'},
     {id: 'door key', name: 'Door key', merchantPrice: '3,953', marketPrice: '3,500', map: 'Factory'},
     {id: 'door key (alternative)', name: 'Door key (alternative)', merchantPrice: '3,953', marketPrice: '3,900', map: 'Factory'},
+    //Interchange
+    {id: 'key to kiba store outlet', name: 'Key to KIBA store outlet', merchantPrice: '450,000', marketPrice: '1,350,000', map: 'Interchange'},
+    {id: 'key to kiba outlet grate door', name: 'Key to KIBA Outlet grate door', merchantPrice: '103,050', marketPrice: '105,000', map: 'Interchange'},
+    {id: 'key to emercom medical unit', name: 'Key to EMERCOM medical unit', merchantPrice: '82,500', marketPrice: '213,000', map: 'Interchange'},
+    {id: 'ultra medical storage key', name: 'ULTRA medical storage key', merchantPrice: 'n/a', marketPrice: '1,699,999', map: 'Interchange'},
+    {id: 'key to utility room of power substation', name: 'Key to utility room of power substation', merchantPrice: '7,500', marketPrice: '10,000', map: 'Interchange'},
+    {id: 'key to pharmacy', name: 'Key to pharmacy', merchantPrice: '60,750', marketPrice: '63,000', map: 'Interchange'},
+    {id: 'key to oli administrator office', name: 'Key to OLI administrator office', merchantPrice: '23,250', marketPrice: '23,000', map: 'Interchange'},
+    {id: 'key to oli logistics department office', name: 'Key to OLI logistics department office', merchantPrice: '52,500', marketPrice: '340,000', map: 'Interchange'},
+    {id: 'key to utility room of oli outlet', name: 'Key to utility room of OLI outlet', merchantPrice: '32,250', marketPrice: '32,999', map: 'Interchange'},
+    {id: 'key to oli cash register', name: 'Key to OLI cash register', merchantPrice: '90,000', marketPrice: '90,000', map: 'Interchange'},
+    {id: 'key to idea cash register', name: 'Key to IDEA cash register', merchantPrice: '90,000', marketPrice: '90,000', map: 'Interchange'},
+    {id: 'key to goshan cash register', name: 'Key to Goshan cash register', merchantPrice: '465,000', marketPrice: '568,000', map: 'Interchange'},
+    {id: 'object 11sr keycard', name: 'Object 11SR keycard', merchantPrice: 'n/a', marketPrice: '1,900,000', map: 'Interchange'},
+    {id: 'object 21ws keycard', name: 'Object 21WS keycard', merchantPrice: 'n/a', marketPrice: '598,999', map: 'Interchange'},
+    //Shoreline
     {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125', marketPrice: '675,000', map: 'Shoreline'},
     {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750', marketPrice: '150,000', map: 'Shoreline'}
 );
