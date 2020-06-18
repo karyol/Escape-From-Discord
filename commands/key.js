@@ -1,4 +1,8 @@
+const Discord = require('discord.js');
+
 const keys = new Array();
+const keyMessage = new Discord.MessageEmbed()
+    .setColor('#f00');
 
 keys.push(
     {name: 'RB-BK', merchantPrice: '75,000₽', marketPrice: '75,000₽'}
@@ -17,7 +21,9 @@ exports.run = (bot, message, args) => {
                 temp++;
                 if(temp == args.length)
                 {
-                    message.channel.send(keys[i].marketPrice);
+                    keyMessage.setTitle(keys[i].name);
+                    keyMessage.setDescription('Therapist price: ' + keys[i].merchantPrice + '\nFlea Market price: ' + keys[i].marketPrice);
+                    message.channel.send(keyMessage);
                 }
             }
             else
