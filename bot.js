@@ -28,9 +28,9 @@ bot.on('message', message => {
         const command = bot.commands.get(cmd);
         if(!command) message.channel.send('If you need help type "eft.help"');
 
-        command.run(bot, message, args);
-        
         args = args.splice(1);
+        
+        command.run(bot, message, args);
         // switch(cmd)
         // {
         //     case 'w':
