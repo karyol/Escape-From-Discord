@@ -3,11 +3,14 @@
     "version": "1.0.0",
     "description": "Private Tarkov Discord bot",
     "main": "bot.js",
-    "scripts": {"start": "node bot.js"},
+    "scripts": {
+        "start": "node bot.js"
+    },
     "author": "Baron_Drakula",
     "dependencies": {
         "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
         "discord.js": "^12.2.0",
+        "enmap": "^5.3.1",
         "winston": "^3.2.1"
     },
     "devDependencies": {
