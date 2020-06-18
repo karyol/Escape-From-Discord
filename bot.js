@@ -26,10 +26,14 @@ bot.on('message', message => {
         var cmd = args[0].toLowerCase();
 
         const command = bot.commands.get(cmd);
-        if(!command) message.channel.send('If you need help type "eft.help"');
+        if(!command) 
+        {
+            message.channel.send('If you need help type "eft.help"');
+            return;
+        }
 
         args = args.splice(1);
-        
+
         command.run(bot, message, args);
         // switch(cmd)
         // {
