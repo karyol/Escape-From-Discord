@@ -6,9 +6,9 @@ const keyMessage = new Discord.MessageEmbed()
     .setFooter('Market price can not be 100% accurate.');
 
 keys.push(
-    {name: 'RB-BK', merchantPrice: '75,000₽', marketPrice: '75,000₽'},
-    {name: 'West wing room 205 key', merchantPrice: '37,125₽', marketPrice: '675,000₽'},
-    {name: 'East wing room 205 key', merchantPrice: '138,750₽', marketPrice: '150,000₽'}
+    {id: 'rb-bk', name: 'RB-BK', merchantPrice: '75,000₽', marketPrice: '75,000₽'},
+    {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125₽', marketPrice: '675,000₽'},
+    {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750₽', marketPrice: '150,000₽'}
 );
 
 exports.run = (bot, message, args) => {
@@ -18,8 +18,8 @@ exports.run = (bot, message, args) => {
         temp = 0;
         for(var j = 0; j < args.length; j++)
         {
-            txt = args[j].toUpperCase();
-            if(keys[i].name.includes(txt))
+            txt = args[j].toLowerCase();
+            if(keys[i].id.includes(txt))
             {
                 temp++;
                 if(temp == args.length)
