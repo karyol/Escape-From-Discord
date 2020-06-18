@@ -42,7 +42,7 @@ keys.push(
 //{id: '', name: '', merchantPrice: '', marketPrice: '', map: ''},
 
 exports.run = (bot, message, args) => {
-    var temp, txt;
+    var temp, txt, count = 0;
     for(var i = 0; i < keys.length; i++)
     {
         temp = 0;
@@ -60,6 +60,12 @@ exports.run = (bot, message, args) => {
                         '\nFlea Market price: ' + keys[i].marketPrice + '₽' + 
                         '\nMap: ' + keys[i].map);
                     message.channel.send(keyMessage);
+                    count++;
+                }
+
+                if(count >= 5)
+                {
+                    return;
                 }
             }
             else
