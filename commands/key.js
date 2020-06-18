@@ -44,6 +44,9 @@ keys.push(
     {id: 'lab. key. arsenal storage room', name: 'Lab. key. Arsenal storage room', merchantPrice: '75,000', marketPrice: '75,420', map: 'The Lab'},
     {id: 'lab. key. manager office', name: 'Lab. key. Manager office', merchantPrice: '259,215', marketPrice: '267,888', map: 'The Lab'},
     {id: 'lab. key. testing area (weap.)', name: 'Lab. key. Testing area (weap.)', merchantPrice: '75,000', marketPrice: '70,000', map: 'The Lab'},
+    {id: 'key zb-014', name: 'Key ZB-014', merchantPrice: '3,476', marketPrice: '16,000', map: 'Woods'},
+    {id: 'shturman key', name: 'Shturman key', merchantPrice: '265,212', marketPrice: '345,000', map: 'Woods'},
+    {id: 'yotota car key', name: 'Yotota car key', merchantPrice: '750', marketPrice: '950', map: 'Woods'},
     {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125', marketPrice: '675,000', map: 'Shoreline'},
     {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750', marketPrice: '150,000', map: 'Shoreline'}
 );
