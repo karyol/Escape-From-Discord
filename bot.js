@@ -12,11 +12,6 @@ const config = {
     prefix: process.env.PREFIX
 };
 
-// const helpMessage = new Discord.MessageEmbed()
-//     .setColor('#d83ecc')
-//     .setTitle('Help')
-//     .setDescription('eft.help - show help \n eft.w %s - search for %s on eft wiki');
-
 bot.on('ready', () => {
     console.log('Logged in!');
 });
@@ -31,7 +26,7 @@ bot.on('message', message => {
         var cmd = args[0].toLowerCase();
 
         const command = bot.commands.get(cmd);
-        if(!command) return;
+        if(!command) message.channel.send('If you need help type "eft.help"');
 
         command.run(bot, message, args);
         
