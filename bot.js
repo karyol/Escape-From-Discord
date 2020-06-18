@@ -12,10 +12,10 @@ const config = {
     prefix: process.env.PREFIX
 };
 
-const helpMessage = new Discord.MessageEmbed()
-    .setColor('#d83ecc')
-    .setTitle('Help')
-    .setDescription('eft.help - show help \n eft.w %s - search for %s on eft wiki');
+// const helpMessage = new Discord.MessageEmbed()
+//     .setColor('#d83ecc')
+//     .setTitle('Help')
+//     .setDescription('eft.help - show help \n eft.w %s - search for %s on eft wiki');
 
 bot.on('ready', () => {
     console.log('Logged in!');
