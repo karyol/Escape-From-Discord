@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const keys = new Array();
 const keyMessage = new Discord.MessageEmbed()
-    .setColor('#ff0000')
+    .setColor('#f34336')
     .setFooter('Market price can not be 100% accurate.');
 
 keys.push(
