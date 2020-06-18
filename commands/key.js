@@ -35,6 +35,15 @@ keys.push(
     {id: 'rb-rs key', name: 'RB-RS key', merchantPrice: '93,000', marketPrice: '115,000', map: 'Reserve'},
     {id: 'rb-rh key', name: 'RB-RH key', merchantPrice: '93,000', marketPrice: '128,887', map: 'Reserve'},
     {id: 'rb-pp key', name: 'RB-PP key', merchantPrice: '26,250', marketPrice: '409,888', map: 'Reserve'},
+    {id: 'lab. green keycard', name: 'Lab. Green keycard', merchantPrice: '147,000', marketPrice: '5,666,666', map: 'The Lab'},
+    {id: 'lab. red keycard', name: 'Lab. Red keycard', merchantPrice: '5,400,000', marketPrice: '30,000,000', map: 'The Lab'},
+    {id: 'lab. violet keycard', name: 'Lab. Violet keycard', merchantPrice: '2,475,000', marketPrice: '3,890,000', map: 'The Lab'},
+    {id: 'lab. black keycard', name: 'Lab. Black keycard', merchantPrice: '157,500', marketPrice: '1,400,000', map: 'The Lab'},
+    {id: 'lab. blue keycard', name: 'Lab. Blue keycard', merchantPrice: '1,762,500', marketPrice: '7,339,999', map: 'The Lab'},
+    {id: 'lab. yellow keycard', name: 'Lab. Yellow keycard', merchantPrice: '33,750', marketPrice: '46,000', map: 'The Lab'},
+    {id: 'lab. key. arsenal storage room', name: 'Lab. key. Arsenal storage room', merchantPrice: '75,000', marketPrice: '75,420', map: 'The Lab'},
+    {id: 'lab. key. manager office', name: 'Lab. key. Manager office', merchantPrice: '259,215', marketPrice: '267,888', map: 'The Lab'},
+    {id: 'lab. key. testing area (weap.)', name: 'Lab. key. Testing area (weap.)', merchantPrice: '75,000', marketPrice: '70,000', map: 'The Lab'},
     {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125', marketPrice: '675,000', map: 'Shoreline'},
     {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750', marketPrice: '150,000', map: 'Shoreline'}
 );
