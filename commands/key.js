@@ -6,7 +6,7 @@ const keyMessage = new Discord.MessageEmbed()
     .setFooter('Market price can not be 100% accurate.');
 
 keys.push(
-    {id: 'rb-bk', name: 'RB-BK', merchantPrice: '75,000₽', marketPrice: '75,000₽'},
+    {id: 'rb-bk key', name: 'RB-BK key', merchantPrice: '75,000₽', marketPrice: '75,000₽'},
     {id: 'west wing room 205 key', name: 'West wing room 205 key', merchantPrice: '37,125₽', marketPrice: '675,000₽'},
     {id: 'east wing room 205 key', name: 'East wing room 205 key', merchantPrice: '138,750₽', marketPrice: '150,000₽'}
 );
