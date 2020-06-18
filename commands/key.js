@@ -5,12 +5,14 @@ keys.push(
 );
 
 exports.run = (bot, message, args) => {
+    var temp, txt;
     for(var i = 0; i < keys.length; i++)
     {
-        var temp = 0;
+        temp = 0;
         for(var j = 0; j < args.length; j++)
         {
-            if(keys[i].name.includes(args[j]))
+            txt = args[j].toUpperCase();
+            if(keys[i].name.includes(txt))
             {
                 temp++;
                 if(temp == args.length)
