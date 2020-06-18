@@ -12,51 +12,43 @@ const config = {
     prefix: process.env.PREFIX
 };
 
-bot.on('ready', () => {
-    console.log('Logged in!');
-});
+module.exports = { config };
 
-bot.on('message', message => {
-    if(message.content.substr(0, config.prefix.length) == config.prefix)
-    {
-        if(message.author.bot) return;
-        if(message.content.indexOf(config.prefix) !== 0) return;
+// bot.on('ready', () => {
+//     console.log('Logged in!');
+// });
 
-        var args = message.content.substr(config.prefix.length).split(/ +/g);
-        var cmd = args[0].toLowerCase();
+// bot.on('message', message => {
+//     if(message.content.substr(0, config.prefix.length) == config.prefix)
+//     {
+//         if(message.author.bot) return;
+//         if(message.content.indexOf(config.prefix) !== 0) return;
 
-        const command = bot.commands.get(cmd);
-        if(!command) 
-        {
-            message.channel.send('If you need help type "eft.help"');
-            return;
-        }
+//         var args = message.content.substr(config.prefix.length).split(/ +/g);
+//         var cmd = args[0].toLowerCase();
 
-        args = args.splice(1);
+//         const command = bot.commands.get(cmd);
+//         if(!command) 
+//         {
+//             message.channel.send('If you need help type "eft.help"');
+//             return;
+//         }
 
-        command.run(bot, message, args);
-        // switch(cmd)
-        // {
-        //     case 'w':
-        //         var temp;
-        //         var txt = args[0];
-        //         for(var i = 1; i < args.length; i++)
-        //         {
-        //             temp = args[i];
-        //             txt = txt + "_" + temp;
-        //         }
-        //         message.channel.send('https://escapefromtarkov.gamepedia.com/index.php?search=' + txt + '&title=Special%3ASearch&go=Go');
-        //     break;
+//         args = args.splice(1);
 
-        //     case 'help':
-        //         message.channel.send(helpMessage);
-        //     break;
+//         command.run(bot, message, args);
+//     }
+// });
 
-        //     default:
-        //         message.channel.send('If you need help type "eft.help"');
-        //     break;
-        // }
-    }
+fs.readdir('./events', async (err, files) => {
+    if(err) return console.error;
+    files.forEach(file => {
+        if(!file.endsWith('.js')) return;
+        var evt = require(`./events/${file}`);
+        var evtName = file.split('.')[0];
+        console.log(`Loaded '${evtName}'.`);
+        bot.on(evtName, evt.bind(null, bot));
+    });
 });
 
 fs.readdir('./commands', async (err, files) => {
