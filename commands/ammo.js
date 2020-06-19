@@ -238,7 +238,7 @@ weapons.push(
     {id: 'lonestartx-15 tx15', name: 'Lone Star TX-15', cal: '5.56x45mm'},
     //7.62x25
     {id: 'tt', name: 'TT', cal: '7.62x25mm'},
-    {id: 'ppsh-41 ppsh41', name: 'PPSH-41', cal: '7.62x25mm'},
+    {id: 'ppsh-41 ppsh41 pepesza ppsz', name: 'PPSH-41', cal: '7.62x25mm'},
     //7.62x39
     {id: 'ak-103 ak103', name: 'AK-103', cal: '7.62x39mm'},
     {id: 'ak-104 ak104', name: 'AK-104', cal: '7.62x39mm'},
@@ -258,6 +258,23 @@ weapons.push(
     {id: 'mosinboltactioninfantryrifle mosinboltactionsniperrifle', name: 'Mosin', cal: '7.62x54R'},
     {id: 'svds', name: 'SVDS', cal: '7.62x54R'},
     {id: 'sv-98 sv98', name: 'SV-98', cal: '7.62x54R'},
+    //9x18
+    {id: 'pp-9klin pp9klin pp-91kedr pp-91-01Kedr-B pp9101kedrb', name: 'PP-9 Klin/PP-91 Kedr', cal: '9x18mm'},
+    {id: 'pb', name: 'PB', cal: '9x18mm'},
+    {id: 'aps', name: 'APS', cal: '9x18mm'},
+    {id: 'pm makarov', name: 'PM', cal: '9x18mm'},
+    //9x19
+    {id: 'mp5kurz', name: 'MP5/MP5 Kurz', cal: '9x19mm'},
+    {id: 'mpx', name: 'MPX', cal: '9x19mm'},
+    {id: 'pp-19-01vityaz-sn pp-19vityaz-sn pp1901vityazsn', name: 'PP-19-01 Vityaz-SN', cal: '9x19mm'},
+    {id: 'saiga-9 saiga9', name: 'Saiga-9', cal: '9x19mm'},
+    {id: 'glock17 glock18c', name: 'Glock 17/Glock 18C', cal: '9x19mm'},
+    {id: 'mp-443grach mp443grach', name: 'MP-443 Grach', cal: '9x19mm'},
+    {id: 'p226r', name: 'P226R', cal: '9x19mm'},
+    {id: 'm9a3', name: 'M9A3', cal: '9x19mm'},
+    {id: 'mp9', name: 'MP9', cal: '9x19mm'},
+    //9x21
+    {id: 'sr-1mpgyurza sr1mpgyurza srimp', name: 'SR-1MP Gyurza', cal: '9x21mm'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
