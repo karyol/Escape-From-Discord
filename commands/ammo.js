@@ -94,6 +94,13 @@ c45.push(
     {type: 'ACP', dmg: '72', pen: '19 <- recommended option'}
 );
 
+c9x21.push(
+    {type: 'sp12', dmg: '80', pen: '15'},
+    {type: 'sp11', dmg: '65', pen: '18'},
+    {type: 'sp10', dmg: '49', pen: '35'},
+    {type: 'sp13', dmg: '63', pen: '39'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -110,6 +117,7 @@ ammo['9x18mm'] = c9x18;
 ammo['7,62x25mm'] = c762x25;
 ammo['9x19mm'] = c9x19;
 ammo['.45'] = c45;
+ammo['9x21mm'] = c9x21;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -119,10 +127,11 @@ weapons.push(
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
-    {id: '9x18mm 918', name: '9x18mm', cal: '9x18mm'},
-    {id: '7,62x25mm 76225', name: '7,62x25mm', cal: '7,62x25mm'},
-    {id: '9x19mm 919', name: '9x19mm', cal: '9x19mm'},
+    {id: '9x18mm 918mm', name: '9x18mm', cal: '9x18mm'},
+    {id: '7,62x25mm 76225mm', name: '7,62x25mm', cal: '7,62x25mm'},
+    {id: '9x19mm 919mm', name: '9x19mm', cal: '9x19mm'},
     {id: '.45', name: '.45', cal: '.45'},
+    {id: '9x21mm 921mm', name: '9x21mm', cal: '9x21mm'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 76239', name: '7,62x39mm', cal: '7,62x39mm'}
 );
