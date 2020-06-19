@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const mod = new Array();
 const modMessage = new Discord.MessageEmbed()
-    .setColor('#ffbf00');
+    .setColor('#994d00');
 
 mod.push(
     //12g
@@ -100,7 +100,7 @@ exports.run = (bot, message, args) => {
                 if(temp == args.length)
                 {
                     modMessage.setTitle(mod[i].name);
-                    modMessage.setFooter('Best supressors: ' + mod[i].supp);
+                    modMessage.setFooter('Best supressor: ' + mod[i].supp);
                     modMessage.setDescription('');
                     if(mod[i].recoil != null)
                     {
