@@ -228,6 +228,14 @@ weapons.push(
     {id: 'aks-74n aks-74un aks-74ub aks74n aks74un aks74ub', name: 'AKS-74(N)/AKS-74U(N/B)', cal: '5.45x39mm'},
     {id: 'ak-105 ak105', name: 'AK-105', cal: '5.45x39mm'},
     {id: 'rpk-16 rpk16', name: 'RPK-16', cal: '5.45x39mm'},
+    //5.56x45
+    {id: 'ak-101 ak101', name: 'AK-101', cal: '5.56x45mm'},
+    {id: 'ak-102 ak102', name: 'AK-102', cal: '5.56x45mm'},
+    {id: 'hk416a5', name: 'HK 416A5', cal: '5.56x45mm'},
+    {id: 'dtmdr5.56x39 dtmdr55639', name: 'DT MDR', cal: '5.56x45mm'},
+    {id: 'm4a1', name: 'M4A1', cal: '5.56x45mm'},
+    {id: 'adar 2-15', name: 'ADAR 2-15', cal: '5.56x45mm'},
+    {id: 'lone star tx-15 tx15', name: 'Lone Star TX-15', cal: '5.56x45mm'},
     // {id: '', name: '', cal: ''},
     //7.62x39
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
