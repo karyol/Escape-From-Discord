@@ -7,7 +7,8 @@ const helpMessage = new Discord.MessageEmbed()
         'eft.help - show help' + '\n' +
         'eft.w % - search for % on eft wiki' + '\n' +
         'eft.key % - information about % key' + '\n' +
-        'eft.ammo % - ammo for % weapon');
+        'eft.ammo % - ammo for % weapon' + '\n' +
+        'eft.mod % - recommended builds for % weapon');
 
 // eslint-disable-next-line no-unused-vars
 exports.run = (bot, message, args) => {
