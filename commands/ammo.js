@@ -221,7 +221,7 @@ weapons.push(
     //4.6x30
     {id: 'mp7a1 mp7a2', name: 'MP7A1/MP7A2', cal: '4.6x30mm'},
     //.366
-    {id: 'vepr akm/vpo-209 vpo209', name: 'Vepr AKM/VPO-209', cal: '.366'},
+    {id: 'veprakm/vpo-209 vpo209', name: 'Vepr AKM/VPO-209', cal: '.366'},
     {id: 'vpo-215 vpo215', name: 'VPO-215', cal: '.366'},
     //5.45x39
     {id: 'ak-74n ak-74m ak74m ak74n', name: 'AK-74/AK-74N/AK-74M', cal: '5.45x39mm'},
@@ -232,10 +232,10 @@ weapons.push(
     {id: 'ak-101 ak101', name: 'AK-101', cal: '5.56x45mm'},
     {id: 'ak-102 ak102', name: 'AK-102', cal: '5.56x45mm'},
     {id: 'hk416a5', name: 'HK 416A5', cal: '5.56x45mm'},
-    {id: 'dt mdr', name: 'DT MDR', cal: '5.56x45mm'},
+    {id: 'dtmdr', name: 'DT MDR', cal: '5.56x45mm'},
     {id: 'm4a1', name: 'M4A1', cal: '5.56x45mm'},
-    {id: 'adar 2-15', name: 'ADAR 2-15', cal: '5.56x45mm'},
-    {id: 'lone star tx-15 tx15', name: 'Lone Star TX-15', cal: '5.56x45mm'},
+    {id: 'adar2-15', name: 'ADAR 2-15', cal: '5.56x45mm'},
+    {id: 'lonestartx-15 tx15', name: 'Lone Star TX-15', cal: '5.56x45mm'},
     //7.62x25
     {id: 'tt', name: 'TT', cal: '7.62x25mm'},
     {id: 'ppsh-41 ppsh41', name: 'PPSH-41', cal: '7.62x25mm'},
@@ -243,8 +243,17 @@ weapons.push(
     {id: 'ak-103 ak103', name: 'AK-103', cal: '7.62x39mm'},
     {id: 'ak-104 ak104', name: 'AK-104', cal: '7.62x39mm'},
     {id: 'akmn akmsn', name: 'AKM(N)/AKMS(N)', cal: '7.62x39mm'},
-    {id: 'vepr km/vpo-136 vpo136', name: 'Vepr KM/VPO-136', cal: '7.62x39mm'},
+    {id: 'veprkm/vpo-136 vpo136', name: 'Vepr KM/VPO-136', cal: '7.62x39mm'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
+    //7.62x51
+    {id: 'sa-58 sa58 fnfal', name: 'SA-58', cal: '7.62x51mm'},
+    {id: 'm1a mia', name: 'M1A', cal: '7.62x51mm'},
+    {id: 'remingtonr11 rsass', name: 'Remington R11 RSASS', cal: '7.62x51mm'},
+    {id: 'dvl-10 dvl10', name: 'DVL-10', cal: '7.62x51mm'},
+    {id: 'm700', name: 'M700', cal: '7.62x51mm'},
+    {id: 'dtmdr', name: 'DT MDR', cal: '7.62x51mm'},
+    {id: 'sr-25 sr25', name: 'SR-25', cal: '7.62x51mm'},
+    {id: 'orsist-5000 t5000', name: 'Orsis T-5000', cal: '7.62x51mm'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
