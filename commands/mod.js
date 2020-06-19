@@ -77,15 +77,15 @@ mod.push(
     //9x21
     {id: 'sr-1mpgyurza sr1mpgyurza srimp', name: 'SR-1MP Gyurza', recoil: 'https://i.imgur.com/k8uVvcv.png', ergo: null, supp: 'SR1MP silencer 9x21'},
     //9x39
-    {id: 'asval', name: 'AS VAL', recoil: '', ergo: '', supp: 'none'},
-    {id: 'vssvintorez', name: 'VSS Vintorez', recoil: '', ergo: '', supp: 'none'},
+    {id: 'asval', name: 'AS VAL', recoil: 'https://i.imgur.com/A2m65n9.png', ergo: 'https://i.imgur.com/5MiUThQ.png', supp: 'none'},
+    {id: 'vssvintorez', name: 'VSS Vintorez', recoil: 'https://i.imgur.com/bTNqp8r.png', ergo: 'https://i.imgur.com/CiuGHXw.png', supp: 'none'},
     //12.7x55
-    {id: 'ash-12 ash12', name: 'ASh-12', recoil: '', ergo: '', supp: ''},
+    {id: 'ash-12 ash12', name: 'ASh-12', recoil: 'https://i.imgur.com/UyHyL9G.png', ergo: null, supp: 'ASh-12 12.7x55 tactical suppressor'},
     //5.7x28
-    {id: 'fnp90', name: 'FN P90', recoil: '', ergo: '', supp: ''},
-    {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', recoil: '', ergo: '', supp: ''},
+    {id: 'fnp90', name: 'FN P90', recoil: 'https://i.imgur.com/ggTKOF6.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
+    {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', recoil: 'https://i.imgur.com/pJZgXwh.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
     //.45
-    {id: 'coltm1911a1', name: 'M1911A1', recoil: '', ergo: '', supp: ''},
+    {id: 'coltm1911a1', name: 'M1911A1', recoil: null, ergo: null, supp: 'none'},
 );
 
 exports.run = (bot, message, args) => {
