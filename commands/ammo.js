@@ -44,6 +44,17 @@ c12g.push(
     {type: 'AP 20 Slug', dmg: '164', pen: '32 <- recommended option'}
 );
 
+c20g.push(
+    {type: '5.6mm Buckshot', dmg: '25', pen: '1 <- budget option'},
+    {type: '6.2mm Buckshot', dmg: '21', pen: '2'},
+    {type: '7.5mm Buckshot', dmg: '24', pen: '3'},
+    {type: '7.3mm Buckshot', dmg: '22', pen: '3'},
+    {type: '\nDevastator Slug', dmg: '188', pen: '4'},
+    {type: 'Slug "Poleva-3"', dmg: '110', pen: '14'},
+    {type: 'Star Slug', dmg: '134', pen: '16'},
+    {type: 'Slug "Poleva-6u"', dmg: '120', pen: '17 <- recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -53,11 +64,14 @@ c762x39.push(
 );
 
 ammo['12 Gauge'] = c12g;
+ammo['20 Gaouge'] = c20g;
 ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
+    {id: 'toz-106 mem gun', name: 'TOZ-106', cal: '20 Gauge'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
+    {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
     {id: '7,62x39mm 762', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
