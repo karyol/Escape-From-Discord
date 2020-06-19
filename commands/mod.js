@@ -97,7 +97,7 @@ exports.run = (bot, message, args) => {
                 if(temp == args.length)
                 {
                     modMessage.setTitle(mod[i].name);
-                    modMessage.setFooter('Best supressors: ' + mod[i].supp);
+                    modMessage.addFields({value: 'Best supressors: ' + mod[i].supp});
                     modMessage.setDescription(null);
                     if(mod[i].recoil != null)
                     {
