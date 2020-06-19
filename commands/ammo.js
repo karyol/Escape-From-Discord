@@ -36,7 +36,7 @@ exports.run = (bot, message, args) => {
                 if(temp == args.length)
                 {
                     ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
-                    tempArray = ammo[weapons[i]];
+                    tempArray = ammo[weapons[i].cal];
                     for(var k = 0; k < tempArray.length; k++)
                     {
                         ammoTxt += tempArray[k].type + ' - Damage: ' + tempArray[k].dmg + ' - Penetration: ' + tempArray[k].pen + '\n';
