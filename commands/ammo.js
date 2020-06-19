@@ -80,6 +80,15 @@ c762x25.push(
     {type: 'Pst gzh', dmg: '50', pen: '24'}
 );
 
+c9x19.push(
+    {type: 'RIP', dmg: '102', pen: '2'},
+    {type: 'PSO gzh', dmg: '59', pen: '10'},
+    {type: 'Luger CCI', dmg: '70', pen: '10'},
+    {type: 'Green Tracer', dmg: '58', pen: '14'},
+    {type: 'PST gzh', dmg: '54', pen: '20 <- budget option'},
+    {type: 'AP 6.3', dmg: '52', pen: '30 <- recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -94,6 +103,7 @@ ammo['12 Gauge'] = c12g;
 ammo['20 Gauge'] = c20g;
 ammo['9x18mm'] = c9x18;
 ammo['7,62x25mm'] = c762x25;
+ammo['9x19mm'] = c9x19;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -104,6 +114,7 @@ weapons.push(
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
     {id: '9x18mm 918', name: '9x18mm', cal: '9x18mm'},
     {id: '7,62x25mm 76225', name: '7,62x25mm', cal: '7,62x25mm'},
+    {id: '9x19mm 919', name: '9x19mm', cal: '9x19mm'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 76239', name: '7,62x39mm', cal: '7,62x39mm'}
 );
