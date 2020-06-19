@@ -111,6 +111,13 @@ c57x28.push(
     {type: 'ss190', dmg: '49', pen: '37'}
 );
 
+c46x30.push(
+    {type: 'Action SX', dmg: '65', pen: '13'},
+    {type: 'FMJ SX', dmg: '43', pen: '30'},
+    {type: 'Subsonic SX', dmg: '41', pen: '34 <- budget option'},
+    {type: 'AP SX', dmg: '35', pen: '47 <- recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -129,6 +136,7 @@ ammo['9x19mm'] = c9x19;
 ammo['.45'] = c45;
 ammo['9x21mm'] = c9x21;
 ammo['5,7x28mm'] = c57x28;
+ammo['4,6x30mm'] = c46x30;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -144,6 +152,7 @@ weapons.push(
     {id: '.45', name: '.45', cal: '.45'},
     {id: '9x21mm 921mm', name: '9x21mm', cal: '9x21mm'},
     {id: '5,7x28mm 5.7x28mm 5728mm', name: '5,7x28mm', cal: '5,7x28mm'},
+    {id: '4,6x30mm 4.6x30mm 4630mm', name: '4,6x30mm', cal: '4,6x30mm'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
