@@ -262,7 +262,7 @@ weapons.push(
     //9x18
     {id: 'pp-9klin pp9klin pp-91kedr pp-91-01Kedr-B pp9101kedrb', name: 'PP-9 Klin/PP-91 Kedr', cal: '9x18mm'},
     {id: 'pb', name: 'PB', cal: '9x18mm'},
-    {id: 'aps', name: 'APS', cal: '9x18mm'},
+    {id: 'aps apb', name: 'APS/APB', cal: '9x18mm'},
     {id: 'pm makarov', name: 'PM', cal: '9x18mm'},
     //9x19
     {id: 'mp5kurz', name: 'MP5/MP5 Kurz', cal: '9x19mm'},
