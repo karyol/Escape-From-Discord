@@ -125,6 +125,12 @@ c9x39.push(
     {type: 'BP', dmg: '60', pen: '48 <- recommended option'}
 );
 
+c366.push(
+    {type: 'Geksa', dmg: '102', pen: '14'},
+    {type: 'FMJ', dmg: '93', pen: '23'},
+    {type: 'EKO', dmg: '68', pen: '30 <- recommeded option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -145,6 +151,7 @@ ammo['9x21mm'] = c9x21;
 ammo['5,7x28mm'] = c57x28;
 ammo['4,6x30mm'] = c46x30;
 ammo['9x39mm'] = c9x39;
+ammo['.366'] = c366;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -162,6 +169,7 @@ weapons.push(
     {id: '5,7x28mm 5.7x28mm 5728mm', name: '5,7x28mm', cal: '5,7x28mm'},
     {id: '4,6x30mm 4.6x30mm 4630mm', name: '4,6x30mm', cal: '4,6x30mm'},
     {id: '9x39mm 939mm', name: '9x39mm', cal: '9x39mm'},
+    {id: '.366', name: '.366', cal: '.366'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
