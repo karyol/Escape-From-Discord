@@ -89,6 +89,11 @@ c9x19.push(
     {type: 'AP 6.3', dmg: '52', pen: '30 <- recommended option'}
 );
 
+c45.push(
+    {type: 'RIP', dmg: '127', pen: '3'},
+    {type: 'ACP', dmg: '72', pen: '19 <- recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -104,17 +109,20 @@ ammo['20 Gauge'] = c20g;
 ammo['9x18mm'] = c9x18;
 ammo['7,62x25mm'] = c762x25;
 ammo['9x19mm'] = c9x19;
+ammo['.45'] = c45;
 
 ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
+    //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
     {id: '9x18mm 918', name: '9x18mm', cal: '9x18mm'},
     {id: '7,62x25mm 76225', name: '7,62x25mm', cal: '7,62x25mm'},
     {id: '9x19mm 919', name: '9x19mm', cal: '9x19mm'},
+    {id: '.45', name: '.45', cal: '.45'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 76239', name: '7,62x39mm', cal: '7,62x39mm'}
 );
