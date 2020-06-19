@@ -7,9 +7,9 @@ const modMessage = new Discord.MessageEmbed()
 mod.push(
     //12g
     {id: 'm870', name: 'M870', recoil: 'https://i.imgur.com/YdT5n1b.png', ergo: 'https://i.imgur.com/GpkK80x.png'},
-    {id: 'mp-133 mp133', name: 'MP-133', recoil: '', ergo: ''},
-    {id: 'mp-153 mp153', name: 'MP-153', recoil: '', ergo: ''},
-    {id: 'saiga-12', name: 'Saiga-12', recoil: '', ergo: ''},
+    {id: 'mp-133 mp133', name: 'MP-133', recoil: 'https://i.imgur.com/ugKBpV5.png', ergo: 'https://i.imgur.com/qAPepDV.png'},
+    {id: 'mp-153 mp153', name: 'MP-153', recoil: 'https://i.imgur.com/Vik8EBI.png', ergo: 'https://i.imgur.com/zAEw2WZ.png'},
+    {id: 'saiga-12', name: 'Saiga-12', recoil: 'https://i.imgur.com/mNg6OSw.png', ergo: null},
     //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', recoil: '', ergo: ''},
     //4.6x30
