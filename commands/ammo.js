@@ -19,7 +19,7 @@ ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
-    {id: '7,62x39mm', name: '7,62x39mm', cal: '7,62x39mm'}
+    {id: '7,62x39mm 762', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
 exports.run = (bot, message, args) => {
