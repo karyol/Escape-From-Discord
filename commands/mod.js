@@ -19,7 +19,8 @@ mod.push(
     {id: 'veprakm/vpo-209 vpo209', name: 'Vepr AKM/VPO-209', recoil: 'https://i.imgur.com/qBsiHYv.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'Rotor 43 .366TKM Muzzle Brake'},
     {id: 'vpo-215 vpo215', name: 'VPO-215', recoil: null, ergo: null, supp: 'Rotor 43 .366TKM Muzzle Brake'},
     //5.45x39
-    {id: 'ak-74n ak-74m ak74m ak74n', name: 'AK-74/AK-74N/AK-74M', recoil: '', ergo: '', supp: ''},
+    {id: 'ak-74n ak74n', name: 'AK-74(N)', recoil: '', ergo: '', supp: ''},
+    {id: 'ak-74m ak74m', name: 'AK-74(M)', recoil: '', ergo: '', supp: ''},
     {id: 'aks-74n aks-74un aks-74ub aks74n aks74un aks74ub', name: 'AKS-74(N)/AKS-74U(N/B)', recoil: '', ergo: '', supp: ''},
     {id: 'ak-105 ak105', name: 'AK-105', recoil: '', ergo: '', supp: ''},
     {id: 'rpk-16 rpk16', name: 'RPK-16', recoil: '', ergo: '', supp: ''},
@@ -97,7 +98,7 @@ exports.run = (bot, message, args) => {
                 if(temp == args.length)
                 {
                     modMessage.setTitle(mod[i].name);
-                    modMessage.addFields({value: 'Best supressors: ' + mod[i].supp});
+                    modMessage.addFields({title: '',value: 'Best supressors: ' + mod[i].supp});
                     modMessage.setDescription('');
                     if(mod[i].recoil != null)
                     {
