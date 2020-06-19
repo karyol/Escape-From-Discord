@@ -4,20 +4,22 @@ const weapons = new Array();
 const ammo = new Array();
 const c762x39 = new Array();
 const ammoMessage = new Discord.MessageEmbed()
-    .setColor('#ffffff');
+    .setColor('#ffbf00')
+    .setFooter('1 armor class = 10 penetration points');
 
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
     {type: 'T45M (Tracer)', dmg: '62', pen: '30'},
-    {type: 'PS', dmg: '57', pen: '32'},
-    {type: 'BP', dmg: '58', pen: '47'}
+    {type: 'PS', dmg: '57', pen: '32 <- budget option'},
+    {type: 'BP', dmg: '58', pen: '47 <- recommended option'}
 );
 
 ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
-    {id: 'sks', name: 'SKS', cal: '7,62x39mm'}
+    {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
+    {id: '7,62x39mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
 exports.run = (bot, message, args) => {
