@@ -184,6 +184,12 @@ c762x54r.push(
     {type: '7n37', dmg: '72', pen: '70'}
 );
 
+c127x55.push(
+    {type: 'PS12A', dmg: '165', pen: '10'},
+    {type: 'PS12', dmg: '115', pen: '28'},
+    {type: 'PS12B', dmg: '102', pen: '46'}
+);
+
 //{type: '', dmg: '', pen: ''},
 
 ammo['12 Gauge'] = c12g;
@@ -202,10 +208,12 @@ ammo['5.56x45mm'] = c556x45;
 ammo['7.62x39mm'] = c762x39;
 ammo['7.62x51mm'] = c762x51;
 ammo['7.62x54R'] = c762x54r;
+ammo['12.7x55mm'] = c127x55;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
+    // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
@@ -223,7 +231,7 @@ weapons.push(
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7.62x39mm', cal: '7.62x39mm'},
     {id: '7,62x51mm 7.62x51mm 76251mm', name: '7.62x51mm', cal: '7.62x51mm'},
     {id: '7,62x54R 7.62x54R 76254R', name: '7.62x54R', cal: '7.62x54R'},
-    // {id: '', name: '', cal: ''},
+    {id: '12,7x55mm 12.7x55mm 12755mm', name: '12.7x55mm', cal: '12.7x55mm'}
 );
 
 exports.run = (bot, message, args) => {
