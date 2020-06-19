@@ -192,54 +192,39 @@ weapons.push(
 );
 
 exports.run = (bot, message, args) => {
-    var temp, txt, count = 0, ammoTxt = '', tempArray;
-
-    if(args[0] == 'list')
+    var temp, txt, count = 0, ammoTxt, tempArray;
+    for(var i = 0; i < weapons.length; i++)
     {
-        ammoMessage.setTitle('Ammo List');
-        for(var l = 0; l < ammo.length; l++)
+        temp = 0;
+        ammoTxt = '';
+        tempArray = new Array();
+        for(var j = 0; j < args.length; j++)
         {
-            ammoTxt += ammo[l] + '\n';
-        }
-        ammoMessage.setDescription(ammoTxt);
-        message.channel.send(ammoMessage);
-    }
-    else
-    {
-        for(var i = 0; i < weapons.length; i++)
-        {
-            temp = 0;
-            ammoTxt = '';
-            tempArray = new Array();
-
-            for(var j = 0; j < args.length; j++)
+            txt = args[j].toLowerCase();
+            if(weapons[i].id.includes(txt))
             {
-                txt = args[j].toLowerCase();
-                if(weapons[i].id.includes(txt))
+                temp++;
+                if(temp == args.length)
                 {
-                    temp++;
-                    if(temp == args.length)
+                    ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
+                    tempArray = ammo[weapons[i].cal];
+                    for(var k = 0; k < tempArray.length; k++)
                     {
-                        ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
-                        tempArray = ammo[weapons[i].cal];
-                        for(var k = 0; k < tempArray.length; k++)
-                        {
-                            ammoTxt += tempArray[k].type + ' - Damage: ' + tempArray[k].dmg + ' - Penetration: ' + tempArray[k].pen + '\n';
-                        }
-                        ammoMessage.setDescription(ammoTxt);
-                        message.channel.send(ammoMessage);
-                        count++;
+                        ammoTxt += tempArray[k].type + ' - Damage: ' + tempArray[k].dmg + ' - Penetration: ' + tempArray[k].pen + '\n';
                     }
+                    ammoMessage.setDescription(ammoTxt);
+                    message.channel.send(ammoMessage);
+                    count++;
+                }
 
-                    if(count >= 5)
-                    {
-                        return;
-                    }
-                }
-                else
+                if(count >= 5)
                 {
-                    break;
+                    return;
                 }
+            }
+            else
+            {
+                break;
             }
         }
     }
