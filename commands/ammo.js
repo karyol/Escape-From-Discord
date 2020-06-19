@@ -21,12 +21,12 @@ weapons.push(
 );
 
 exports.run = (bot, message, args) => {
-    var temp, txt, count = 0;
+    var temp, txt, count = 0, ammoTxt, tempArray;
     for(var i = 0; i < weapons.length; i++)
     {
         temp = 0;
-        var ammoTxt;
-        var tempArray = new Array();
+        ammoTxt = '';
+        tempArray = new Array();
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
