@@ -39,7 +39,7 @@ c12g.push(
     {type: 'FTX Custom Lite Slug', dmg: '153', pen: '18'},
     {type: 'Slug "Poleva-6u"', dmg: '140', pen: '20'},
     {type: 'Shell With .50 BMG (Tracer)', dmg: '177', pen: '23'},
-    {type: 'AP 20 Slug', dmg: '164', pen: '32 <- recommended option'}
+    {type: 'AP-20 Slug', dmg: '164', pen: '32 <- recommended option'}
 );
 
 c20g.push(
@@ -131,6 +131,21 @@ c366.push(
     {type: 'EKO', dmg: '68', pen: '30 <- recommeded option'}
 );
 
+c545x39.push(
+    {type: 'SP', dmg: '68', pen: '11'},
+    {type: 'HP', dmg: '74', pen: '11'},
+    {type: 'PRS', dmg: '60', pen: '14'},
+    {type: 'US', dmg: '65', pen: '15'},
+    {type: 'FMJ', dmg: '54', pen: '20'},
+    {type: 'T (Tracer)', dmg: '57', pen: '20'},
+    {type: 'PS', dmg: '50', pen: '25'},
+    {type: 'PP', dmg: '46', pen: '30'},
+    {type: 'BP', dmg: '48', pen: '32'},
+    {type: 'BT (Tracer)', dmg: '44', pen: '37 <- budget option'},
+    {type: 'BS', dmg: '40', pen: '51 <- recommended option'},
+    {type: '7N39 "Igolnik"', dmg: '37', pen: '62 <- recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -152,6 +167,7 @@ ammo['5,7x28mm'] = c57x28;
 ammo['4,6x30mm'] = c46x30;
 ammo['9x39mm'] = c9x39;
 ammo['.366'] = c366;
+ammo['5,45x39mm'] = c545x39;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -170,6 +186,7 @@ weapons.push(
     {id: '4,6x30mm 4.6x30mm 4630mm', name: '4,6x30mm', cal: '4,6x30mm'},
     {id: '9x39mm 939mm', name: '9x39mm', cal: '9x39mm'},
     {id: '.366', name: '.366', cal: '.366'},
+    {id: '5,45x39mm 5.45x39mm 54539mm', name: '5,45x39mm', cal: '5,45x39mm'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
