@@ -202,6 +202,7 @@ exports.run = (bot, message, args) => {
             ammoTxt += ammo[l] + '\n';
         }
         ammoMessage.setDescription(ammoTxt);
+        message.channel.send(ammoMessage);
     }
     else
     {
