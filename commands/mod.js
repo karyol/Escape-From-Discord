@@ -38,11 +38,11 @@ mod.push(
     {id: 'ppsh-41 ppsh41 pepesza ppsz', name: 'PPSH-41', recoil: null, ergo: null, supp: 'none'},
     //7.62x39
     {id: 'ak-103 ak103', name: 'AK-103', recoil: 'https://i.imgur.com/T0SDicl.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-1 7.62x39 silencer'},
-    {id: 'ak-104 ak104', name: 'AK-104', recoil: '', ergo: '', supp: 'PBS-1 7.62x39 silencer'},
-    {id: 'akmn', name: 'AKM(N)', recoil: '', ergo: '', supp: 'PBS-1 7.62x39 silencer'},
-    {id: 'akmsn', name: 'AKMS(N)', recoil: '', ergo: '', supp: 'PBS-1 7.62x39 silencer'},
-    {id: 'veprkm/vpo-136 vpo136', name: 'Vepr KM/VPO-136', recoil: '', ergo: '', supp: 'PBS-1 7.62x39 silencer'},
-    {id: 'op-sks', name: 'SKS/OP-SKS', recoil: '', ergo: '', supp: 'Hexagon SKS 7.62x39 sound supressor'},
+    {id: 'ak-104 ak104', name: 'AK-104', recoil: 'https://i.imgur.com/RaARsOT.png', ergo: 'https://i.imgur.com/UON3Csu.png', supp: 'PBS-1 7.62x39 silencer'},
+    {id: 'akmn', name: 'AKM(N)', recoil: 'https://i.imgur.com/ntz6877.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-1 7.62x39 silencer'},
+    {id: 'akmsn', name: 'AKMS(N)', recoil: 'https://i.imgur.com/e2w2BeK.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-1 7.62x39 silencer'},
+    {id: 'veprkm/vpo-136 vpo136', name: 'Vepr KM/VPO-136', recoil: 'https://i.imgur.com/f6EJQuB.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-1 7.62x39 silencer'},
+    {id: 'op-sks', name: 'SKS/OP-SKS', recoil: 'https://i.imgur.com/tj0cTuZ.png', ergo: 'https://i.imgur.com/KbaQXHL.png', supp: 'Hexagon SKS 7.62x39 sound supressor'},
     //7.62x51
     {id: 'sa-58 sa58 fnfal', name: 'SA-58', recoil: '', ergo: '', supp: ''},
     {id: 'veprhunter vpo101 vpo-101', name: 'Vepr Hunter/VPO-101', recoil: '', ergo: '', supp: ''},
