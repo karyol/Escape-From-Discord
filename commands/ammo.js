@@ -146,6 +146,18 @@ c545x39.push(
     {type: '7N39 "Igolnik"', dmg: '37', pen: '62 <- recommended option'}
 );
 
+c556x45.push(
+    {type: 'Warmage', dmg: '85', pen: '3'},
+    {type: '55 HP', dmg: '75', pen: '9'},
+    {type: 'MK 255 Mod 0', dmg: '60', pen: '17'},
+    {type: 'M856 (Tracer)', dmg: '55', pen: '23'},
+    {type: 'FMJ', dmg: '52', pen: '24'},
+    {type: 'M855', dmg: '49', pen: '29'},
+    {type: 'M856A1 (Tracer)', dmg: '51', pen: '37 <- budget option'},
+    {type: 'M855A1', dmg: '44', pen: '40 <- budget option'},
+    {type: 'M995', dmg: '41', pen: '53 <-recommended option'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -159,36 +171,37 @@ c762x39.push(
 ammo['12 Gauge'] = c12g;
 ammo['20 Gauge'] = c20g;
 ammo['9x18mm'] = c9x18;
-ammo['7,62x25mm'] = c762x25;
+ammo['7.62x25mm'] = c762x25;
 ammo['9x19mm'] = c9x19;
 ammo['.45'] = c45;
 ammo['9x21mm'] = c9x21;
-ammo['5,7x28mm'] = c57x28;
-ammo['4,6x30mm'] = c46x30;
+ammo['5.7x28mm'] = c57x28;
+ammo['4.6x30mm'] = c46x30;
 ammo['9x39mm'] = c9x39;
 ammo['.366'] = c366;
-ammo['5,45x39mm'] = c545x39;
-
-ammo['7,62x39mm'] = c762x39;
+ammo['5.45x39mm'] = c545x39;
+ammo['5.56x45mm'] = c556x45;
+ammo['7.62x39mm'] = c762x39;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
-    {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
+    {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
     {id: '9x18mm 918mm', name: '9x18mm', cal: '9x18mm'},
-    {id: '7,62x25mm 7.62x25mm 76225mm', name: '7,62x25mm', cal: '7,62x25mm'},
+    {id: '7,62x25mm 7.62x25mm 76225mm', name: '7.62x25mm', cal: '7.62x25mm'},
     {id: '9x19mm 919mm', name: '9x19mm', cal: '9x19mm'},
     {id: '.45', name: '.45', cal: '.45'},
     {id: '9x21mm 921mm', name: '9x21mm', cal: '9x21mm'},
-    {id: '5,7x28mm 5.7x28mm 5728mm', name: '5,7x28mm', cal: '5,7x28mm'},
-    {id: '4,6x30mm 4.6x30mm 4630mm', name: '4,6x30mm', cal: '4,6x30mm'},
+    {id: '5,7x28mm 5.7x28mm 5728mm', name: '5.7x28mm', cal: '5.7x28mm'},
+    {id: '4,6x30mm 4.6x30mm 4630mm', name: '4.6x30mm', cal: '4.6x30mm'},
     {id: '9x39mm 939mm', name: '9x39mm', cal: '9x39mm'},
     {id: '.366', name: '.366', cal: '.366'},
-    {id: '5,45x39mm 5.45x39mm 54539mm', name: '5,45x39mm', cal: '5,45x39mm'},
+    {id: '5,45x39mm 5.45x39mm 54539mm', name: '5.45x39mm', cal: '5.45x39mm'},
+    {id: '5,56x45mm 5.56x45mm 55645mm', name: '5.56x45mm', cal: '5.56x45mm'},
+    {id: '7,62x39mm 7.62x39mm 76239mm', name: '7.62x39mm', cal: '7.62x39mm'},
     // {id: '', name: '', cal: ''},
-    {id: '7,62x39mm 7.62x39mm 76239mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
 exports.run = (bot, message, args) => {
