@@ -6,7 +6,7 @@ const modMessage = new Discord.MessageEmbed()
 
 mod.push(
     //12g
-    {id: 'm870', weaponName: 'M870', recoil: 'https://imgur.com/YdT5n1b', ergo: 'https://imgur.com/GpkK80x'},
+    {id: 'm870', name: 'M870', recoil: 'https://imgur.com/YdT5n1b', ergo: 'https://imgur.com/GpkK80x'},
     {id: 'mp-133 mp133', name: 'MP-133', recoil: '', ergo: ''},
     {id: 'mp-153 mp153', name: 'MP-153', recoil: '', ergo: ''},
     {id: 'saiga-12', name: 'Saiga-12', recoil: '', ergo: ''},
