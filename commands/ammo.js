@@ -254,6 +254,10 @@ weapons.push(
     {id: 'dtmdr', name: 'DT MDR', cal: '7.62x51mm'},
     {id: 'sr-25 sr25', name: 'SR-25', cal: '7.62x51mm'},
     {id: 'orsist-5000 t5000', name: 'Orsis T-5000', cal: '7.62x51mm'},
+    //7.62x54r
+    {id: 'mosinboltactioninfantryrifle mosinboltactionsniperrifle', name: 'Mosin', cal: '7.62x54R'},
+    {id: 'svds', name: 'SVDS', cal: '7.62x54R'},
+    {id: 'sv-98 sv98', name: 'SV-98', cal: '7.62x54R'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
