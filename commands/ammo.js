@@ -56,20 +56,20 @@ c20g.push(
 );
 
 c9x18.push(
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''},
-    {type: '', dmg: '', pen: ''}
+    {type: 'SP8', dmg: '67', pen: '1'},
+    {type: 'SP7', dmg: '77', pen: '2 <- budget option'},
+    {type: 'PSV', dmg: '69', pen: '3'},
+    {type: 'P gzh', dmg: '50', pen: '5'},
+    {type: 'PSO gzh', dmg: '54', pen: '5'},
+    {type: 'PS gs PPO', dmg: '55', pen: '6'},
+    {type: 'PRS gs', dmg: '58', pen: '6'},
+    {type: 'PPE gzh', dmg: '61', pen: '7'},
+    {type: 'PPT gzh', dmg: '59', pen: '8'},
+    {type: 'PST gzh', dmg: '50', pen: '12'},
+    {type: 'RG028 gzh', dmg: '65', pen: '13'},
+    {type: 'BZT gzh', dmg: '53', pen: '18'},
+    {type: 'PMM', dmg: '58', pen: '24 <- recommended option'},
+    {type: 'PBM', dmg: '40', pen: '28 <- recommended option'}
 );
 
 c762x39.push(
@@ -83,12 +83,14 @@ c762x39.push(
 ammo['12 Gauge'] = c12g;
 ammo['20 Gauge'] = c20g;
 ammo['7,62x39mm'] = c762x39;
+ammo['9x18mm'] = c9x18;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
+    {id: '9x18mm 918', name: '9x18mm', cal: '9x18mm'},
     {id: '7,62x39mm 762', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
