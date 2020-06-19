@@ -239,9 +239,13 @@ weapons.push(
     //7.62x25
     {id: 'tt', name: 'TT', cal: '7.62x25mm'},
     {id: 'ppsh-41 ppsh41', name: 'PPSH-41', cal: '7.62x25mm'},
-    // {id: '', name: '', cal: ''},
     //7.62x39
+    {id: 'ak-103 ak103', name: 'AK-103', cal: '7.62x39mm'},
+    {id: 'ak-104 ak104', name: 'AK-104', cal: '7.62x39mm'},
+    {id: 'akmn akmsn', name: 'AKM(N)/AKMS(N)', cal: '7.62x39mm'},
+    {id: 'vepr km/vpo-136 vpo136', name: 'Vepr KM/VPO-136', cal: '7.62x39mm'},
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
+    // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
