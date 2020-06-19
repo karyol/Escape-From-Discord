@@ -95,20 +95,20 @@ c45.push(
 );
 
 c9x21.push(
-    {type: 'sp12', dmg: '80', pen: '15'},
-    {type: 'sp11', dmg: '65', pen: '18'},
-    {type: 'sp10', dmg: '49', pen: '35'},
-    {type: 'sp13', dmg: '63', pen: '39'}
+    {type: 'SP12', dmg: '80', pen: '15'},
+    {type: 'SP11', dmg: '65', pen: '18'},
+    {type: 'SP10', dmg: '49', pen: '35'},
+    {type: 'SP13', dmg: '63', pen: '39'}
 );
 
 c57x28.push(
-    {type: 'r37f', dmg: '98', pen: '8'},
-    {type: 'ss198lf', dmg: '74', pen: '10'},
-    {type: 'r37x', dmg: '81', pen: '11'},
-    {type: 'ss197sr', dmg: '62', pen: '20'},
-    {type: 'l191 (Tracer)', dmg: '58', pen: '33 <- budget option'},
-    {type: 'sb193', dmg: '54', pen: '35 <- recommended option'},
-    {type: 'ss190', dmg: '49', pen: '37'}
+    {type: 'R37.F', dmg: '98', pen: '8'},
+    {type: 'SS198LF', dmg: '74', pen: '10'},
+    {type: 'R37.X', dmg: '81', pen: '11'},
+    {type: 'SS197SR', dmg: '62', pen: '20'},
+    {type: 'L191 (Tracer)', dmg: '58', pen: '33 <- budget option'},
+    {type: 'SB193', dmg: '54', pen: '35 <- recommended option'},
+    {type: 'SS190', dmg: '49', pen: '37'}
 );
 
 c46x30.push(
@@ -116,6 +116,13 @@ c46x30.push(
     {type: 'FMJ SX', dmg: '43', pen: '30'},
     {type: 'Subsonic SX', dmg: '41', pen: '34 <- budget option'},
     {type: 'AP SX', dmg: '35', pen: '47 <- recommended option'}
+);
+
+c9x39.push(
+    {type: 'SP-5', dmg: '68', pen: '35'},
+    {type: 'SP-6', dmg: '58', pen: '43 <- budget option'},
+    {type: 'SPP', dmg: '64', pen: '45'},
+    {type: 'BP', dmg: '60', pen: '48 <- recommended option'}
 );
 
 c762x39.push(
@@ -137,6 +144,7 @@ ammo['.45'] = c45;
 ammo['9x21mm'] = c9x21;
 ammo['5,7x28mm'] = c57x28;
 ammo['4,6x30mm'] = c46x30;
+ammo['9x39mm'] = c9x39;
 
 ammo['7,62x39mm'] = c762x39;
 
@@ -153,6 +161,7 @@ weapons.push(
     {id: '9x21mm 921mm', name: '9x21mm', cal: '9x21mm'},
     {id: '5,7x28mm 5.7x28mm 5728mm', name: '5,7x28mm', cal: '5,7x28mm'},
     {id: '4,6x30mm 4.6x30mm 4630mm', name: '4,6x30mm', cal: '4,6x30mm'},
+    {id: '9x39mm 939mm', name: '9x39mm', cal: '9x39mm'},
     // {id: '', name: '', cal: ''},
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7,62x39mm', cal: '7,62x39mm'}
 );
