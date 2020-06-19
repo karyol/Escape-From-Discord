@@ -2,10 +2,47 @@ const Discord = require('discord.js');
 
 const weapons = new Array();
 const ammo = new Array();
+const c12g = new Array();
+const c20g = new Array();
+const c9x18 = new Array();
+const c762x25 = new Array();
+const c9x19 = new Array();
+const c45 = new Array();
+const c9x21 = new Array();
+const c57x28 = new Array();
+const c46x30 = new Array();
+const c9x39 = new Array();
+const c366 = new Array();
+const c545x39 = new Array();
+const c556x45 = new Array();
 const c762x39 = new Array();
+const c762x51 = new Array();
+const c762x54r = new Array();
+const c127x55 = new Array();
 const ammoMessage = new Discord.MessageEmbed()
     .setColor('#ffbf00')
     .setFooter('1 armor class = 10 penetration points');
+
+//{type: '', dmg: '', pen: ''},
+
+c12g.push(
+    {type: '5.25mm Buckshot', dmg: '34', pen: '1'},
+    {type: '8.5mm Buckshot "Magnum"', dmg: '44', pen: '2 <- budget option'},
+    {type: '6.5mm Buckshot "Express', dmg: '29', pen: '3'},
+    {type: '7mm Buckshot', dmg: '32', pen: '3'},
+    {type: 'Flechette', dmg: '19', pen: '28'},
+    {type: 'RIP Slug', dmg: '235', pen: '0'},
+    {type: 'Superformance HP Slug', dmg: '190', pen: '2'},
+    {type: 'Grizzly 40 Slug', dmg: '170', pen: '12'},
+    {type: 'HP Copper Sabot Premier', dmg: '160', pen: '13'},
+    {type: 'Led Slug', dmg: '147', pen: '15'},
+    {type: 'Dual Sabot Slug', dmg: '75', pen: '17'},
+    {type: 'Slug "Poleva-3"', dmg: '130', pen: '17'},
+    {type: 'FTX Custom Lite Slug', dmg: '153', pen: '18'},
+    {type: 'Slug "Poleva-6u"', dmg: '140', pen: '20'},
+    {type: 'Shell With .50 BMG (Tracer)', dmg: '177', pen: '23'},
+    {type: 'AP 20 Slug', dmg: '164', pen: '32 <- recommended option'}
+);
 
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
@@ -15,10 +52,12 @@ c762x39.push(
     {type: 'BP', dmg: '58', pen: '47 <- recommended option'}
 );
 
+ammo['12 Gauge'] = c12g;
 ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7,62x39mm'},
+    {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '7,62x39mm 762', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
