@@ -23,8 +23,6 @@ const ammoMessage = new Discord.MessageEmbed()
     .setColor('#ffbf00')
     .setFooter('1 armor class = 10 penetration points');
 
-//{type: '', dmg: '', pen: ''},
-
 c12g.push(
     {type: '5.25mm Buckshot', dmg: '34', pen: '1'},
     {type: '8.5mm Buckshot "Magnum"', dmg: '44', pen: '2 <- budget option'},
@@ -72,6 +70,16 @@ c9x18.push(
     {type: 'PBM', dmg: '40', pen: '28 <- recommended option'}
 );
 
+c762x25.push(
+    {type: 'LRNPC', dmg: '66', pen: '5'},
+    {type: 'LRN', dmg: '64', pen: '6'},
+    {type: 'FMJ43', dmg: '60', pen: '8'},
+    {type: 'akbs', dmg: '58', pen: '9'},
+    {type: 'P Gl', dmg: '58', pen: '10'},
+    {type: 'T Gzh (Tracer)', dmg: '60', pen: '12'},
+    {type: 'Pst gzh', dmg: '50', pen: '24'}
+);
+
 c762x39.push(
     {type: 'HP', dmg: '87', pen: '15'},
     {type: 'US', dmg: '56', pen: '29'},
@@ -80,10 +88,14 @@ c762x39.push(
     {type: 'BP', dmg: '58', pen: '47 <- recommended option'}
 );
 
+//{type: '', dmg: '', pen: ''},
+
 ammo['12 Gauge'] = c12g;
 ammo['20 Gauge'] = c20g;
-ammo['7,62x39mm'] = c762x39;
 ammo['9x18mm'] = c9x18;
+ammo['7,62x25mm'] = c762x25;
+
+ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
@@ -91,7 +103,9 @@ weapons.push(
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
     {id: '9x18mm 918', name: '9x18mm', cal: '9x18mm'},
-    {id: '7,62x39mm 762', name: '7,62x39mm', cal: '7,62x39mm'}
+    {id: '7,62x25mm 76225', name: '7,62x25mm', cal: '7,62x25mm'},
+    // {id: '', name: '', cal: ''},
+    {id: '7,62x39mm 76239', name: '7,62x39mm', cal: '7,62x39mm'}
 );
 
 exports.run = (bot, message, args) => {
