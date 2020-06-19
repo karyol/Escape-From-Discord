@@ -31,7 +31,7 @@ c12g.push(
     {type: '6.5mm Buckshot "Express', dmg: '29', pen: '3'},
     {type: '7mm Buckshot', dmg: '32', pen: '3'},
     {type: 'Flechette', dmg: '19', pen: '28'},
-    {type: 'RIP Slug', dmg: '235', pen: '0'},
+    {type: '\nRIP Slug', dmg: '235', pen: '0'},
     {type: 'Superformance HP Slug', dmg: '190', pen: '2'},
     {type: 'Grizzly 40 Slug', dmg: '170', pen: '12'},
     {type: 'HP Copper Sabot Premier', dmg: '160', pen: '13'},
