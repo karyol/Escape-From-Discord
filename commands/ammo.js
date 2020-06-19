@@ -247,6 +247,7 @@ weapons.push(
     {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
     //7.62x51
     {id: 'sa-58 sa58 fnfal', name: 'SA-58', cal: '7.62x51mm'},
+    {id: 'veprhunter vpo101 vpo-101', name: 'Vepr Hunter/VPO-101', cal: '7.62x51mm'},
     {id: 'm1a mia', name: 'M1A', cal: '7.62x51mm'},
     {id: 'remingtonr11 rsass', name: 'Remington R11 RSASS', cal: '7.62x51mm'},
     {id: 'dvl-10 dvl10', name: 'DVL-10', cal: '7.62x51mm'},
