@@ -64,7 +64,7 @@ c762x39.push(
 );
 
 ammo['12 Gauge'] = c12g;
-ammo['20 Gaouge'] = c20g;
+ammo['20 Gauge'] = c20g;
 ammo['7,62x39mm'] = c762x39;
 
 weapons.push(
