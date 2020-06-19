@@ -284,6 +284,8 @@ weapons.push(
     //5.7x28
     {id: 'fnp90', name: 'FN P90', cal: '5.7x28mm'},
     {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', cal: '5.7x28mm'},
+    //.45
+    {id: 'coltm1911a1', name: 'M1911A1', cal: '.45'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
