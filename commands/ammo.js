@@ -275,6 +275,14 @@ weapons.push(
     {id: 'mp9', name: 'MP9', cal: '9x19mm'},
     //9x21
     {id: 'sr-1mpgyurza sr1mpgyurza srimp', name: 'SR-1MP Gyurza', cal: '9x21mm'},
+    //9x39
+    {id: 'asval', name: 'AS VAL', cal: '9x39mm'},
+    {id: 'vssvintorez', name: 'VSS Vintorez', cal: '9x39mm'},
+    //12.7x55
+    {id: 'ash-12 ash12', name: 'ASh-12', cal: '12.7x55mm'},
+    //5.7x28
+    {id: 'fnp90', name: 'FN P90', cal: '5.7x28mm'},
+    {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', cal: '5.7x28mm'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
