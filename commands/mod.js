@@ -100,7 +100,7 @@ exports.run = (bot, message, args) => {
                 {
                     modMessage.setTitle(mod[i].name);
                     modMessage.addField(' ', 'Best supressors: ' + mod[i].supp, false);
-                    modMessage.setDescription('');
+                    modMessage.setDescription(' ');
                     if(mod[i].recoil != null)
                     {
                         modMessage.setDescription('Recoil build:');
