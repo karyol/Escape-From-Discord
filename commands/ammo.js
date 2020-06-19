@@ -215,7 +215,7 @@ weapons.push(
     {id: 'm870', name: 'M870', cal: '12 Gauge'},
     {id: 'mp-133 mp133', name: 'MP-133', cal: '12 Gauge'},
     {id: 'mp-153 mp153', name: 'MP-153', cal: '12 Gauge'},
-    {id: 'saiga-12', name: 'Saiga-12', cal: '12 Gauge'},
+    {id: 'saiga-12 saiga12', name: 'Saiga-12', cal: '12 Gauge'},
     //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
     //4.6x30
