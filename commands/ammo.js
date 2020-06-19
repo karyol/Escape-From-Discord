@@ -211,9 +211,26 @@ ammo['7.62x54R'] = c762x54r;
 ammo['12.7x55mm'] = c127x55;
 
 weapons.push(
+    //12g
+    {id: 'm870', name: 'M870', cal: '12 Gauge'},
+    {id: 'mp-133 mp133', name: 'MP-133', cal: '12 Gauge'},
+    {id: 'mp-153 mp153', name: 'MP-153', cal: '12 Gauge'},
+    {id: 'saiga-12', name: 'Saiga-12', cal: '12 Gauge'},
+    //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
-    {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
+    //4.6x30
+    {id: 'mp7a1 mp7a2', name: 'MP7A1/MP7A2', cal: '4.6x30mm'},
+    //.366
+    {id: 'vepr akm/vpo-209 vpo209', name: 'Vepr AKM/VPO-209', cal: '.366'},
+    {id: 'vpo-215 vpo215', name: 'VPO-215', cal: '.366'},
+    //5.45x39
+    {id: 'ak-74n ak-74m ak74m ak74n', name: 'AK-74/AK-74N/AK-74M', cal: '5.45x39mm'},
+    {id: 'aks-74n aks-74un aks-74ub aks74n aks74un aks74ub', name: 'AKS-74(N)/AKS-74U(N/B)', cal: '5.45x39mm'},
+    {id: 'ak-105 ak105', name: 'AK-105', cal: '5.45x39mm'},
+    {id: 'rpk-16 rpk16', name: 'RPK-16', cal: '5.45x39mm'},
     // {id: '', name: '', cal: ''},
+    //7.62x39
+    {id: 'op-sks', name: 'SKS/OP-SKS', cal: '7.62x39mm'},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
