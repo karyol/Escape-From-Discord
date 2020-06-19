@@ -77,7 +77,7 @@ c762x25.push(
     {type: 'akbs', dmg: '58', pen: '9'},
     {type: 'P Gl', dmg: '58', pen: '10'},
     {type: 'T Gzh (Tracer)', dmg: '60', pen: '12'},
-    {type: 'Pst gzh', dmg: '50', pen: '24'}
+    {type: 'Pst gzh', dmg: '50', pen: '24 <- recommended option'}
 );
 
 c9x19.push(
