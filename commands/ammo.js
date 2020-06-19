@@ -175,6 +175,15 @@ c762x51.push(
     {type: 'M61', dmg: '70', pen: '68 <- recommended option'}
 );
 
+c762x54r.push(
+    {type: 'T-46M (Tracer)', dmg: '82', pen: '41'},
+    {type: 'LPS Gzh', dmg: '81', pen: '42 <- budget option'},
+    {type: '7N1', dmg: '86', pen: '45 <- recommended option'},
+    {type: '7BT1 (Tracer)', dmg: '78', pen: '59'},
+    {type: 'SNB', dmg: '75', pen: '62'},
+    {type: '7n37', dmg: '72', pen: '70'}
+);
+
 //{type: '', dmg: '', pen: ''},
 
 ammo['12 Gauge'] = c12g;
@@ -192,6 +201,7 @@ ammo['5.45x39mm'] = c545x39;
 ammo['5.56x45mm'] = c556x45;
 ammo['7.62x39mm'] = c762x39;
 ammo['7.62x51mm'] = c762x51;
+ammo['7.62x54R'] = c762x54r;
 
 weapons.push(
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
@@ -212,6 +222,7 @@ weapons.push(
     {id: '5,56x45mm 5.56x45mm 55645mm', name: '5.56x45mm', cal: '5.56x45mm'},
     {id: '7,62x39mm 7.62x39mm 76239mm', name: '7.62x39mm', cal: '7.62x39mm'},
     {id: '7,62x51mm 7.62x51mm 76251mm', name: '7.62x51mm', cal: '7.62x51mm'},
+    {id: '7,62x54R 7.62x54R 76254R', name: '7.62x54R', cal: '7.62x54R'},
     // {id: '', name: '', cal: ''},
 );
 
