@@ -20,7 +20,7 @@ mod.push(
     {id: 'vpo-215 vpo215', name: 'VPO-215', recoil: null, ergo: null, supp: 'Rotor 43 .366TKM Muzzle Brake'},
     //5.45x39
     {id: 'ak-74n ak74n', name: 'AK-74(N)', recoil: 'https://i.imgur.com/D1ynBjv.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-4 5.45x39 Silencer'},
-    {id: 'ak-74m ak74m', name: 'AK-74(M)', recoil: 'https://i.imgur.com/Gkhv8IE.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-4 5.45x39 Silencer'},
+    {id: 'ak-74m ak74m', name: 'AK-74(M)', recoil: 'https://i.imgur.com/U2ztyhj.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-4 5.45x39 Silencer'},
     {id: 'aks-74un aks-74ub aks74un aks74ub', name: 'AKS-74U(N/B)', recoil: 'https://i.imgur.com/xXNAU3b.png', ergo: null, supp: 'PBS-4 5.45x39 Silencer'},
     {id: 'aks-74n aks74n', name: 'AKS-74(N)', recoil: 'https://i.imgur.com/Gkhv8IE.png', ergo: 'https://i.imgur.com/agaiuVq.png', supp: 'PBS-4 5.45x39 Silencer'},
     {id: 'ak-105 ak105', name: 'AK-105', recoil: 'https://i.imgur.com/n2wjDeZ.png', ergo: 'https://i.imgur.com/UON3Csu.png', supp: 'PBS-4 5.45x39 Silencer'},
