@@ -152,10 +152,10 @@ c556x45.push(
     {type: 'MK 255 Mod 0', dmg: '60', pen: '17'},
     {type: 'M856 (Tracer)', dmg: '55', pen: '23'},
     {type: 'FMJ', dmg: '52', pen: '24'},
-    {type: 'M855', dmg: '49', pen: '29'},
+    {type: 'M855', dmg: '50', pen: '30'},
     {type: 'M856A1 (Tracer)', dmg: '51', pen: '37 <- budget option'},
-    {type: 'M855A1', dmg: '44', pen: '40 <- budget option'},
-    {type: 'M995', dmg: '41', pen: '53 <-recommended option'}
+    {type: 'M855A1', dmg: '45', pen: '43 <- budget option'},
+    {type: 'M995', dmg: '40', pen: '53 <-recommended option'}
 );
 
 c762x39.push(
