@@ -113,9 +113,9 @@ c57x28.push(
 
 c46x30.push(
     {type: 'Action SX', dmg: '65', pen: '13'},
-    {type: 'FMJ SX', dmg: '43', pen: '30'},
-    {type: 'Subsonic SX', dmg: '41', pen: '34 <- budget option'},
-    {type: 'AP SX', dmg: '35', pen: '47 <- recommended option'}
+    {type: 'Subsonic SX', dmg: '45', pen: '36'},
+    {type: 'FMJ SX', dmg: '43', pen: '40 <- budget option'},
+    {type: 'AP SX', dmg: '35', pen: '53 <- recommended option'}
 );
 
 c9x39.push(
