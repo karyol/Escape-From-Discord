@@ -7,6 +7,7 @@ const modMessage = new Discord.MessageEmbed()
 mod.push(
     //12g
     {id: 'm870', name: 'M870', recoil: 'https://i.imgur.com/YdT5n1b.png', ergo: 'https://i.imgur.com/GpkK80x.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
+    {id: 'mossberg590a1', name: 'Mossberg 590A1', recoil: null, ergo: null, supp: 'none'},
     {id: 'mp-133 mp133', name: 'MP-133', recoil: 'https://i.imgur.com/ugKBpV5.png', ergo: 'https://i.imgur.com/qAPepDV.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
     {id: 'mp-153 mp153', name: 'MP-153', recoil: 'https://i.imgur.com/Vik8EBI.png', ergo: 'https://i.imgur.com/zAEw2WZ.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
     {id: 'saiga-12 saiga12', name: 'Saiga-12', recoil: 'https://i.imgur.com/mNg6OSw.png', ergo: null, supp: 'SilencerCo Salvo 12 + SilencerCo Salvo 12 thread adapter'},
