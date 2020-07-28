@@ -24,33 +24,33 @@ const ammoMessage = new Discord.MessageEmbed()
     .setFooter('1 armor class = 10 penetration points');
 
 c12g.push(
-    {type: '5.25mm Buckshot', dmg: '34', pen: '1'},
-    {type: '8.5mm Buckshot "Magnum"', dmg: '44', pen: '2 <- budget option'},
-    {type: '6.5mm Buckshot "Express', dmg: '29', pen: '3'},
-    {type: '7mm Buckshot', dmg: '32', pen: '3'},
-    {type: 'Flechette', dmg: '19', pen: '28'},
-    {type: '\nRIP Slug', dmg: '235', pen: '0'},
-    {type: 'Superformance HP Slug', dmg: '190', pen: '2'},
-    {type: 'Grizzly 40 Slug', dmg: '170', pen: '12'},
-    {type: 'HP Copper Sabot Premier', dmg: '160', pen: '13'},
-    {type: 'Led Slug', dmg: '147', pen: '15'},
-    {type: 'Dual Sabot Slug', dmg: '75', pen: '17'},
-    {type: 'Slug "Poleva-3"', dmg: '130', pen: '17'},
-    {type: 'FTX Custom Lite Slug', dmg: '153', pen: '18'},
-    {type: 'Slug "Poleva-6u"', dmg: '140', pen: '20'},
-    {type: 'Shell With .50 BMG (Tracer)', dmg: '177', pen: '23'},
-    {type: 'AP-20 Slug', dmg: '164', pen: '32 <- recommended option'}
+    {type: '5.25mm Buckshot', dmg: '37', pen: '1'},
+    {type: '8.5mm Buckshot "Magnum"', dmg: '50', pen: '2 <- budget option'},
+    {type: '6.5mm Buckshot "Express', dmg: '35', pen: '3'},
+    {type: '7mm Buckshot', dmg: '39', pen: '3'},
+    {type: 'Flechette', dmg: '25', pen: '31'},
+    {type: '\nRIP Slug', dmg: '265', pen: '0'},
+    {type: 'Superformance HP Slug', dmg: '220', pen: '2'},
+    {type: 'Grizzly 40 Slug', dmg: '190', pen: '12'},
+    {type: 'HP Copper Sabot Premier', dmg: '206', pen: '14'},
+    {type: 'Led Slug', dmg: '167', pen: '15'},
+    {type: 'Dual Sabot Slug', dmg: '85', pen: '17'},
+    {type: 'Slug "Poleva-3"', dmg: '140', pen: '17'},
+    {type: 'FTX Custom Lite Slug', dmg: '183', pen: '20'},
+    {type: 'Slug "Poleva-6u"', dmg: '150', pen: '20'},
+    {type: 'Shell With .50 BMG (Tracer)', dmg: '197', pen: '26'},
+    {type: 'AP-20 Slug', dmg: '164', pen: '37 <- recommended option'}
 );
 
 c20g.push(
-    {type: '5.6mm Buckshot', dmg: '25', pen: '1 <- budget option'},
-    {type: '6.2mm Buckshot', dmg: '21', pen: '2'},
-    {type: '7.5mm Buckshot', dmg: '24', pen: '3'},
-    {type: '7.3mm Buckshot', dmg: '22', pen: '3'},
-    {type: '\nDevastator Slug', dmg: '188', pen: '4'},
-    {type: 'Slug "Poleva-3"', dmg: '110', pen: '14'},
-    {type: 'Star Slug', dmg: '134', pen: '16'},
-    {type: 'Slug "Poleva-6u"', dmg: '120', pen: '17 <- recommended option'}
+    {type: '5.6mm Buckshot', dmg: '26', pen: '1 <- budget option'},
+    {type: '6.2mm Buckshot', dmg: '22', pen: '2'},
+    {type: '7.5mm Buckshot', dmg: '25', pen: '3'},
+    {type: '7.3mm Buckshot', dmg: '23', pen: '3'},
+    {type: '\nDevastator Slug', dmg: '198', pen: '5'},
+    {type: 'Slug "Poleva-3"', dmg: '120', pen: '14'},
+    {type: 'Star Slug', dmg: '154', pen: '16'},
+    {type: 'Slug "Poleva-6u"', dmg: '135', pen: '17 <- recommended option'}
 );
 
 c9x18.push(
@@ -82,16 +82,21 @@ c762x25.push(
 
 c9x19.push(
     {type: 'RIP', dmg: '102', pen: '2'},
+    {type: 'QuakeMaker', dmg: '85', pen: '8'},
     {type: 'PSO gzh', dmg: '59', pen: '10'},
     {type: 'Luger CCI', dmg: '70', pen: '10'},
-    {type: 'Green Tracer', dmg: '58', pen: '14'},
+    {type: 'Green Tracer (Tracer)', dmg: '58', pen: '14'},
     {type: 'PST gzh', dmg: '54', pen: '20 <- budget option'},
-    {type: 'AP 6.3', dmg: '52', pen: '30 <- recommended option'}
+    {type: 'AP 6.3', dmg: '52', pen: '30 '},
+    {type: '7n31', dmg: '52', pen: '39 <- recommended option'}
 );
 
 c45.push(
     {type: 'RIP', dmg: '127', pen: '3'},
-    {type: 'ACP', dmg: '72', pen: '19 <- recommended option'}
+    {type: 'Hydra-Shock', dmg: '95', pen: '13'},
+    {type: 'Lasermatch FMJ (Tracer)', dmg: '74', pen: '18'},
+    {type: 'ACP', dmg: '72', pen: '19'},
+    {type: 'ACP AP', dmg: '70', pen: '36 <- recommended option'}
 );
 
 c9x21.push(
@@ -128,7 +133,8 @@ c9x39.push(
 c366.push(
     {type: 'Geksa', dmg: '102', pen: '14'},
     {type: 'FMJ', dmg: '93', pen: '23'},
-    {type: 'EKO', dmg: '68', pen: '30 <- recommeded option'}
+    {type: 'EKO', dmg: '68', pen: '30 <- budget option'},
+    {type: 'AP', dmg: '90', pen: '42 <- recommended option'}
 );
 
 c545x39.push(
@@ -170,9 +176,10 @@ c762x51.push(
     {type: 'Ultra Nosler', dmg: '102', pen: '15'},
     {type: 'BPZ FMJ', dmg: '88', pen: '31'},
     {type: 'TPZ SP', dmg: '60', pen: '36'},
-    {type: 'M80', dmg: '80', pen: '41 <- recommended option'},
-    {type: 'M62 (Tracer)', dmg: '79', pen: '54'},
-    {type: 'M61', dmg: '70', pen: '68 <- recommended option'}
+    {type: 'M80', dmg: '80', pen: '41'},
+    {type: 'M62 (Tracer)', dmg: '79', pen: '54 <- budget option'},
+    {type: 'M61', dmg: '70', pen: '68 <- recommended option'},
+    {type: 'M993', dmg: '67', pen: '70 <- recommended option'}
 );
 
 c762x54r.push(
@@ -213,6 +220,7 @@ ammo['12.7x55mm'] = c127x55;
 weapons.push(
     //12g
     {id: 'm870', name: 'M870', cal: '12 Gauge'},
+    {id: 'mossberg590a1', name: 'Mossberg 590A1', cal: '12 Gauge'},
     {id: 'mp-133 mp133', name: 'MP-133', cal: '12 Gauge'},
     {id: 'mp-153 mp153', name: 'MP-153', cal: '12 Gauge'},
     {id: 'saiga-12 saiga12', name: 'Saiga-12', cal: '12 Gauge'},
