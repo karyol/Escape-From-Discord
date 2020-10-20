@@ -196,6 +196,7 @@ exports.run = (bot, message, args) => {
                     );
                     keyMessage.setImage(maps[i].img);
                     message.channel.send(keyMessage);
+                    keyMessage.spliceFields(0, 3);
                 }
             }
             else
