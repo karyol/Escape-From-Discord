@@ -309,9 +309,9 @@ weapons.push(
     {id: 'coltm45a1', name: 'Colt M45A1', cal: '.45'},
     // {id: '', name: '', cal: ''},
     //ammo
-    {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
-    {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
-    {id: '23 gauge shot slugs 23g', name: '23 Gauge', cal: '23 Gauge'},
+    {id: '12gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
+    {id: '20gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
+    {id: '23gauge shot slugs 23g', name: '23 Gauge', cal: '23 Gauge'},
     {id: '9x18mm 918mm', name: '9x18mm', cal: '9x18mm'},
     {id: '7,62x25mm 7.62x25mm 76225mm', name: '7.62x25mm', cal: '7.62x25mm'},
     {id: '9x19mm 919mm', name: '9x19mm', cal: '9x19mm'},
