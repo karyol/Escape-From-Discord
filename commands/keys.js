@@ -171,14 +171,14 @@ exports.run = (bot, message, args) => {
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
-            tempName = '';
-            tempTier = '';
-            tempWorth = '';
             if(maps[i].id.includes(txt))
             {
                 temp++;
                 if(temp == args.length)
                 {
+                    tempName = '';
+                    tempTier = '';
+                    tempWorth = '';
                     keyMessage.setTitle(maps[i].name);
                     for(var k = 0; k < keys.length; k++)
                     {
