@@ -6,7 +6,7 @@ const helpMessage = new Discord.MessageEmbed()
     .setDescription(
         'eft.help - show help' + '\n' +
         'eft.w % - search for % on eft wiki' + '\n' +
-        'eft.key % - information about % key' + '\n' +
+        'eft.keys % - information about keys for % map' + '\n' +
         'eft.ammo % - ammo for % weapon' + '\n' +
         'eft.mod % - recommended builds for % weapon');
 
