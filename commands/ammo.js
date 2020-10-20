@@ -58,7 +58,7 @@ c23g.push(
     {type: '"Star" Flashbang Slug', dmg: '0', pen: '0'},
     {type: 'Sharpnel 25', dmg: '78', pen: '10'},
     {type: 'Sharpnel 10', dmg: '87', pen: '11'},
-    {type: '"Barricade" Slug', dmg: '192', pen: '39'}
+    {type: '"Barricade" Slug', dmg: '192', pen: '39 <- recommended option'}
 );
 
 c9x18.push(
@@ -236,7 +236,7 @@ weapons.push(
     //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
     //23g
-    {id: 'tozks-23m', name: 'TOZ KS-23M', cal: '23 Gauge'},
+    {id: 'tozks-23m tozks23m', name: 'TOZ KS-23M', cal: '23 Gauge'},
     //4.6x30
     {id: 'mp7a1 mp7a2', name: 'MP7A1/MP7A2', cal: '4.6x30mm'},
     //.366
