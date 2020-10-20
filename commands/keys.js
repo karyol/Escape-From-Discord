@@ -168,12 +168,12 @@ exports.run = (bot, message, args) => {
     for(var i = 0; i < maps.length; i++)
     {
         temp = 0;
-        tempName = '';
-        tempTier = '';
-        tempWorth = '';
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
+            tempName = '';
+            tempTier = '';
+            tempWorth = '';
             if(maps[i].id.includes(txt))
             {
                 temp++;
