@@ -12,7 +12,7 @@ maps.push(
     {id: 'factory', name: 'Factory', img: 'https://i.ibb.co/nmrxff7/cfw.jpg'},
     {id: 'interchange', name: 'Interchange', img: null},
     {id: 'customs', name: 'Customs', img: 'https://i.ibb.co/nmrxff7/cfw.jpg'},
-    {id: 'shoreline', name: 'Shoreline', img: 'https://i.ibb.co/wpkrxdW/asda.jpg'}
+    {id: 'shoreline', name: 'Shoreline', img: 'https://i.imgur.com/kNPzh5z.png'}
 );
 
 //{id: '', name: '', img: ''}
