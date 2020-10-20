@@ -13,6 +13,8 @@ mod.push(
     {id: 'saiga-12 saiga12', name: 'Saiga-12', recoil: 'https://i.imgur.com/mNg6OSw.png', ergo: null, supp: 'SilencerCo Salvo 12 + SilencerCo Salvo 12 thread adapter'},
     //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', recoil: 'https://i.imgur.com/cMpV72k.png', ergo: null, supp: 'none'},
+    //23g
+    {id: 'tozks-23m', name: 'TOZ KS-23M', recoil: null, ergo: null, supp: 'none'},
     //4.6x30
     {id: 'mp7a1', name: 'MP7A1', recoil: 'https://i.imgur.com/aXzb2gE.png', ergo: null, supp: 'B&T Rotex 2 4.6x30 silencer'},
     {id: 'mp7a2', name: 'MP7A2', recoil: 'https://i.imgur.com/KaKQAjA.png', ergo: null, supp: 'B&T Rotex 2 4.6x30 silencer'},
@@ -54,6 +56,7 @@ mod.push(
     {id: 'dtmdr', name: 'DT MDR', recoil: 'https://i.imgur.com/DssE8he.png', ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'sr-25 sr25', name: 'SR-25', recoil: 'https://i.imgur.com/7VFBCN2.png', ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'orsist-5000 t5000', name: 'Orsis T-5000', recoil: null, ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
+    {id: 'kel-tecrfb keltecrfb', name: 'Kel-Tec RFB', recoil: null, ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     //7.62x54r
     {id: 'mosinboltactioninfantryrifle mosinboltactionsniperrifle', name: 'Mosin', recoil: 'https://i.imgur.com/I1UAb7M.png', ergo: 'https://i.imgur.com/dse4ONC.png', supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51 + Tiger Rock adapter'},
     {id: 'svds', name: 'SVDS', recoil: 'https://i.imgur.com/7y4CGtf.png', ergo: null, supp: 'Rotor 43 7.62x54 muzzle brake'},
@@ -86,7 +89,8 @@ mod.push(
     {id: 'fnp90', name: 'FN P90', recoil: 'https://i.imgur.com/ggTKOF6.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
     {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', recoil: 'https://i.imgur.com/pJZgXwh.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
     //.45
-    {id: 'coltm1911a1', name: 'M1911A1', recoil: null, ergo: null, supp: 'none'},
+    {id: 'coltm1911a1', name: 'Colt M1911A1', recoil: null, ergo: null, supp: 'none'},
+    {id: 'coltm45a1', name: 'Colt M45A1', recoil: null, ergo: null, supp: 'none'}
 );
 
 exports.run = (bot, message, args) => {

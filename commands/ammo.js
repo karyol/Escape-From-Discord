@@ -4,6 +4,7 @@ const weapons = new Array();
 const ammo = new Array();
 const c12g = new Array();
 const c20g = new Array();
+const c23g = new Array();
 const c9x18 = new Array();
 const c762x25 = new Array();
 const c9x19 = new Array();
@@ -53,6 +54,13 @@ c20g.push(
     {type: 'Slug "Poleva-6u"', dmg: '135', pen: '17 <- recommended option'}
 );
 
+c23g.push(
+    {type: '"Star" Flashbang Slug', dmg: '0', pen: '0'},
+    {type: 'Sharpnel 25', dmg: '78', pen: '10'},
+    {type: 'Sharpnel 10', dmg: '87', pen: '11'},
+    {type: '"Barricade" Slug', dmg: '192', pen: '39'}
+);
+
 c9x18.push(
     {type: 'SP8', dmg: '67', pen: '1'},
     {type: 'SP7', dmg: '77', pen: '2 <- budget option'},
@@ -71,13 +79,13 @@ c9x18.push(
 );
 
 c762x25.push(
-    {type: 'LRNPC', dmg: '66', pen: '5'},
-    {type: 'LRN', dmg: '64', pen: '6'},
-    {type: 'FMJ43', dmg: '60', pen: '8'},
-    {type: 'akbs', dmg: '58', pen: '9'},
-    {type: 'P Gl', dmg: '58', pen: '10'},
-    {type: 'T Gzh (Tracer)', dmg: '60', pen: '12'},
-    {type: 'Pst gzh', dmg: '50', pen: '24 <- recommended option'}
+    {type: 'LRNPC', dmg: '66', pen: '7'},
+    {type: 'LRN', dmg: '64', pen: '8'},
+    {type: 'FMJ43', dmg: '60', pen: '11'},
+    {type: 'akbs', dmg: '58', pen: '12'},
+    {type: 'P Gl', dmg: '58', pen: '14'},
+    {type: 'T Gzh (Tracer)', dmg: '60', pen: '18'},
+    {type: 'Pst gzh', dmg: '50', pen: '25 <- recommended option'}
 );
 
 c9x19.push(
@@ -103,7 +111,7 @@ c9x21.push(
     {type: 'SP12', dmg: '80', pen: '15'},
     {type: 'SP11', dmg: '65', pen: '18'},
     {type: 'SP10', dmg: '49', pen: '35'},
-    {type: 'SP13', dmg: '63', pen: '39'}
+    {type: 'SP13', dmg: '63', pen: '39 <- recommended option'}
 );
 
 c57x28.push(
@@ -131,9 +139,9 @@ c9x39.push(
 );
 
 c366.push(
-    {type: 'Geksa', dmg: '102', pen: '14'},
-    {type: 'FMJ', dmg: '93', pen: '23'},
-    {type: 'EKO', dmg: '68', pen: '30 <- budget option'},
+    {type: 'Geksa', dmg: '110', pen: '14'},
+    {type: 'FMJ', dmg: '98', pen: '23'},
+    {type: 'EKO', dmg: '73', pen: '30 <- budget option'},
     {type: 'AP', dmg: '90', pen: '42 <- recommended option'}
 );
 
@@ -194,13 +202,14 @@ c762x54r.push(
 c127x55.push(
     {type: 'PS12A', dmg: '165', pen: '10'},
     {type: 'PS12', dmg: '115', pen: '28'},
-    {type: 'PS12B', dmg: '102', pen: '46'}
+    {type: 'PS12B', dmg: '102', pen: '46 <- recommended option'}
 );
 
 //{type: '', dmg: '', pen: ''},
 
 ammo['12 Gauge'] = c12g;
 ammo['20 Gauge'] = c20g;
+ammo['23 Gauge'] = c23g;
 ammo['9x18mm'] = c9x18;
 ammo['7.62x25mm'] = c762x25;
 ammo['9x19mm'] = c9x19;
@@ -226,6 +235,8 @@ weapons.push(
     {id: 'saiga-12 saiga12', name: 'Saiga-12', cal: '12 Gauge'},
     //20g
     {id: 'toz-106 memgun toz106', name: 'TOZ-106', cal: '20 Gauge'},
+    //23g
+    {id: 'tozks-23m', name: 'TOZ KS-23M', cal: '23 Gauge'},
     //4.6x30
     {id: 'mp7a1 mp7a2', name: 'MP7A1/MP7A2', cal: '4.6x30mm'},
     //.366
@@ -263,6 +274,7 @@ weapons.push(
     {id: 'dtmdr', name: 'DT MDR', cal: '7.62x51mm'},
     {id: 'sr-25 sr25', name: 'SR-25', cal: '7.62x51mm'},
     {id: 'orsist-5000 t5000', name: 'Orsis T-5000', cal: '7.62x51mm'},
+    {id: 'kel-tecrfb keltecrfb', name: 'Kel-Tec RFB', cal: '7.62x51mm'},
     //7.62x54r
     {id: 'mosinboltactioninfantryrifle mosinboltactionsniperrifle', name: 'Mosin', cal: '7.62x54R'},
     {id: 'svds', name: 'SVDS', cal: '7.62x54R'},
@@ -293,11 +305,13 @@ weapons.push(
     {id: 'fnp90', name: 'FN P90', cal: '5.7x28mm'},
     {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', cal: '5.7x28mm'},
     //.45
-    {id: 'coltm1911a1', name: 'M1911A1', cal: '.45'},
+    {id: 'coltm1911a1', name: 'Colt M1911A1', cal: '.45'},
+    {id: 'coltm45a1', name: 'Colt M45A1', cal: '.45'},
     // {id: '', name: '', cal: ''},
     //ammo
     {id: '12 gauge shot slugs 12g', name: '12 Gauge', cal: '12 Gauge'},
     {id: '20 gauge shot slugs 20g', name: '20 Gauge', cal: '20 Gauge'},
+    {id: '23 gauge shot slugs 23g', name: '23 Gauge', cal: '23 Gauge'},
     {id: '9x18mm 918mm', name: '9x18mm', cal: '9x18mm'},
     {id: '7,62x25mm 7.62x25mm 76225mm', name: '7.62x25mm', cal: '7.62x25mm'},
     {id: '9x19mm 919mm', name: '9x19mm', cal: '9x19mm'},
