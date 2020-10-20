@@ -164,10 +164,13 @@ keys.push(
 //{id: '', name: '', tier: '', worth: '', map: ''},
 
 exports.run = (bot, message, args) => {
-    var temp, txt, tempName = '', tempTier = '', tempWorth = '';
+    var temp, txt, tempName, tempTier, tempWorth;
     for(var i = 0; i < maps.length; i++)
     {
         temp = 0;
+        tempName = '';
+        tempTier = '';
+        tempWorth = '';
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
