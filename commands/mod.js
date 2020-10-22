@@ -7,7 +7,7 @@ const modMessage = new Discord.MessageEmbed()
 mod.push(
     //12g
     {id: 'm870', name: 'M870', recoil: 'https://i.imgur.com/YdT5n1b.png', ergo: 'https://i.imgur.com/GpkK80x.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
-    {id: 'mossberg590a1', name: 'Mossberg 590A1', recoil: null, ergo: null, supp: 'none'},
+    {id: 'mossberg590a1', name: 'Mossberg 590A1', recoil: 'https://i.ibb.co/4N5TtGF/Mossberg-recoil.png', ergo: 'https://i.ibb.co/3mzyR7x/Mossberg-ergo.png', supp: 'none'},
     {id: 'mp-133 mp133', name: 'MP-133', recoil: 'https://i.imgur.com/ugKBpV5.png', ergo: 'https://i.imgur.com/qAPepDV.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
     {id: 'mp-153 mp153', name: 'MP-153', recoil: 'https://i.imgur.com/Vik8EBI.png', ergo: 'https://i.imgur.com/zAEw2WZ.png', supp: 'SilencerCo Salvo 12 + SilencerCo choke adapter'},
     {id: 'saiga-12 saiga12', name: 'Saiga-12', recoil: 'https://i.imgur.com/mNg6OSw.png', ergo: null, supp: 'SilencerCo Salvo 12 + SilencerCo Salvo 12 thread adapter'},
@@ -48,7 +48,7 @@ mod.push(
     {id: 'op-sks', name: 'SKS/OP-SKS', recoil: 'https://i.imgur.com/tj0cTuZ.png', ergo: 'https://i.imgur.com/KbaQXHL.png', supp: 'Hexagon SKS 7.62x39 sound supressor'},
     //7.62x51
     {id: 'sa-58 sa58 fnfal', name: 'SA-58', recoil: 'https://i.imgur.com/I9UkQJR.png', ergo: 'https://i.imgur.com/h5SNjVB.png', supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
-    {id: 'veprhunter vpo101 vpo-101', name: 'Vepr Hunter/VPO-101', recoil: null, ergo: null, supp: 'none'},
+    {id: 'veprhunter vpo101 vpo-101', name: 'Vepr Hunter/VPO-101', recoil: 'https://i.ibb.co/ckrmb09/Hunter-recoil.png', ergo: null, supp: 'Rotor 43 7.62x51 muzzle break for VPO-101'},
     {id: 'm1a mia', name: 'M1A', recoil: 'https://i.imgur.com/5eEjP4C.png', ergo: 'https://i.imgur.com/ca2hfqi.png', supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'remingtonr11 rsass', name: 'Remington R11 RSASS', recoil: 'https://i.imgur.com/TJQjjYR.png', ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'dvl-10 dvl10', name: 'DVL-10', recoil: null, ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
@@ -56,7 +56,7 @@ mod.push(
     {id: 'dtmdr', name: 'DT MDR', recoil: 'https://i.imgur.com/DssE8he.png', ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'sr-25 sr25', name: 'SR-25', recoil: 'https://i.imgur.com/7VFBCN2.png', ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     {id: 'orsist-5000 t5000', name: 'Orsis T-5000', recoil: null, ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
-    {id: 'kel-tecrfb keltecrfb', name: 'Kel-Tec RFB', recoil: null, ergo: null, supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
+    {id: 'kel-tecrfb keltecrfb', name: 'Kel-Tec RFB', recoil: 'https://i.ibb.co/tq9fmXC/RFB-recoil.png', ergo: 'https://i.ibb.co/QbjcGW4/RFB-ergo.png', supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51'},
     //7.62x54r
     {id: 'mosinboltactioninfantryrifle mosinboltactionsniperrifle', name: 'Mosin', recoil: 'https://i.imgur.com/I1UAb7M.png', ergo: 'https://i.imgur.com/dse4ONC.png', supp: 'Daniel Defence Wave QD Supr. + DD Wave MB. 7.62x51 + Tiger Rock adapter'},
     {id: 'svds', name: 'SVDS', recoil: 'https://i.imgur.com/7y4CGtf.png', ergo: null, supp: 'Rotor 43 7.62x54 muzzle brake'},
@@ -89,8 +89,8 @@ mod.push(
     {id: 'fnp90', name: 'FN P90', recoil: 'https://i.imgur.com/ggTKOF6.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
     {id: 'fn57 fn5-7 fnfiveseven fnfive-seven', name: 'FN Five-seveN', recoil: 'https://i.imgur.com/pJZgXwh.png', ergo: null, supp: 'FN Attenuator 5.7x28 silencer'},
     //.45
-    {id: 'coltm1911a1', name: 'Colt M1911A1', recoil: null, ergo: null, supp: 'none'},
-    {id: 'coltm45a1', name: 'Colt M45A1', recoil: null, ergo: null, supp: 'none'}
+    {id: 'coltm1911a1', name: 'Colt M1911A1', recoil: 'https://i.ibb.co/1sNCLDg/M1911.png', ergo: null, supp: 'none'},
+    {id: 'coltm45a1', name: 'Colt M45A1', recoil: 'https://i.ibb.co/9HJ1xJd/M45A1.png', ergo: null, supp: 'none'}
 );
 
 exports.run = (bot, message, args) => {
