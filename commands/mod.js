@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const mod = new Array();
-const featuredMods = new Array();
+//const featuredMods = new Array();
 const modMessage = new Discord.MessageEmbed()
     .setColor('#994d00');
 
