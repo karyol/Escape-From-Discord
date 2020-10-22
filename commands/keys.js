@@ -6,13 +6,13 @@ const keyMessage = new Discord.MessageEmbed()
     .setColor('#f34336');
 
 maps.push(
-    {id: 'reserve', name: 'Reserve', img: 'https://i.ibb.co/yXJRLsD/dfsfdsfsd.jpg'},
-    {id: 'thelabs', name: 'The Lab', img: null},
-    {id: 'woods', name: 'Woods', img: 'https://i.ibb.co/nmrxff7/cfw.jpg'},
-    {id: 'factory', name: 'Factory', img: 'https://i.ibb.co/nmrxff7/cfw.jpg'},
-    {id: 'interchange', name: 'Interchange', img: null},
-    {id: 'customs', name: 'Customs', img: 'https://i.ibb.co/nmrxff7/cfw.jpg'},
-    {id: 'shoreline', name: 'Shoreline', img: 'https://i.imgur.com/kNPzh5z.png'}
+    {id: 'reserve', name: 'Reserve', img: 'https://i.ibb.co/5cwr7HY/Reserve-keys.png'},
+    {id: 'thelabs', name: 'The Lab', img: 'https://i.ibb.co/qYDP4PL/Labs-keys.png'},
+    {id: 'woods', name: 'Woods', img: 'https://i.ibb.co/80NYsyJ/Woods-keys.png'},
+    {id: 'factory', name: 'Factory', img: 'https://i.ibb.co/K9SkZPG/Factory-keys.png'},
+    {id: 'interchange', name: 'Interchange', img: 'https://i.ibb.co/dgG3NX2/Interchange-keys.png'},
+    {id: 'customs', name: 'Customs', img: 'https://i.ibb.co/cg98v14/Customs-keys.png'},
+    {id: 'shoreline', name: 'Shoreline', img: 'https://i.imgur.com/yt3f59n.png'}
 );
 
 //{id: '', name: '', img: ''}
@@ -142,6 +142,7 @@ keys.push(
     {id: 'health resort management office safe key', name: 'Health resort management office safe key', tier: '3', worth: 'OPTIONAL', map: 'shoreline'},
     {id: 'health resort room 321 safe key', name: 'Health resort room 321 safe key', tier: '3', worth: 'OPTIONAL', map: 'shoreline'},
     {id: 'smw car key', name: 'SMW car key', tier: '4', worth: 'NO', map: 'shoreline'},
+    {id: 'factory exit key', name: 'Factory exit key', tier: '4', worth: 'NO', map: 'factory'},
     {id: 'weather station safe key', name: 'Weather station safe key', tier: '5', worth: 'NO', map: 'shoreline'},
     {id: 'key to store safe', name: 'Key to store safe', tier: '5', worth: 'NO', map: 'shoreline'},
     {id: 'gas station safe key', name: 'Gas station safe key', tier: '5', worth: 'NO', map: 'shoreline'},
