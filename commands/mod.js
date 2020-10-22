@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 
 const mod = new Array();
+const featuredMods = new Array();
 const modMessage = new Discord.MessageEmbed()
     .setColor('#994d00');
 
@@ -93,6 +94,11 @@ mod.push(
     {id: 'coltm45a1', name: 'Colt M45A1', recoil: 'https://i.ibb.co/9HJ1xJd/M45A1.png', ergo: null, supp: 'none'}
 );
 
+featuredMods.push(
+    {name: 'Colt M1911A1', link: 'https://i.ibb.co/1sNCLDg/M1911.png'},
+    {name: 'FN P90', link: 'https://i.imgur.com/ggTKOF6.png'}
+);
+
 exports.run = (bot, message, args) => {
     var temp, txt, count = 0;
     for(var i = 0; i < mod.length; i++)
@@ -101,7 +107,22 @@ exports.run = (bot, message, args) => {
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
-            if(mod[i].id.includes(txt))
+            if('featured'.includes(txt))
+            {
+                var d = new Date();
+                var now = d.getDate + d.getMonth + d.getFullYear;
+                if(process.env.LASTDATE != now)
+                {
+                    process.env.LASTDATE = now;
+                    process.env.RANDOMNUM = Math.floor(Math.random() * (featuredMods.length - 1));
+                }
+
+                modMessage.setTitle('Build of the day:');
+                modMessage.setDescription(featuredMods[process.env.RANDOMNUM].name);
+                modMessage.setImage(featuredMods[process.env.RANDOMNUM].link);
+                message.channel.send(modMessage);
+            }
+            else if(mod[i].id.includes(txt))
             {
                 temp++;
                 if(temp == args.length)
