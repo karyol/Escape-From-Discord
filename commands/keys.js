@@ -142,7 +142,7 @@ keys.push(
     {id: 'health resort management office safe key', name: 'Health resort management office safe key', tier: '3', worth: 'OPTIONAL', map: 'shoreline'},
     {id: 'health resort room 321 safe key', name: 'Health resort room 321 safe key', tier: '3', worth: 'OPTIONAL', map: 'shoreline'},
     {id: 'smw car key', name: 'SMW car key', tier: '4', worth: 'NO', map: 'shoreline'},
-    {id: 'factory exit key', name: 'Factory exit key', tier: '4', worth: 'NO', map: 'factory'},
+    {id: 'factory exit key', name: 'Factory exit key', tier: '4', worth: 'NO', map: 'shoreline'},
     {id: 'weather station safe key', name: 'Weather station safe key', tier: '5', worth: 'NO', map: 'shoreline'},
     {id: 'key to store safe', name: 'Key to store safe', tier: '5', worth: 'NO', map: 'shoreline'},
     {id: 'gas station safe key', name: 'Gas station safe key', tier: '5', worth: 'NO', map: 'shoreline'},
