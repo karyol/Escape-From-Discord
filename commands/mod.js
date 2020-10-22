@@ -121,6 +121,7 @@ exports.run = (bot, message, args) => {
                 modMessage.setDescription(featuredMods[process.env.RANDOMNUM].name);
                 modMessage.setImage(featuredMods[process.env.RANDOMNUM].link);
                 message.channel.send(modMessage);
+                break;
             }
             else if(mod[i].id.includes(txt))
             {
