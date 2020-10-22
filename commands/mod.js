@@ -94,10 +94,10 @@ mod.push(
     {id: 'coltm45a1', name: 'Colt M45A1', recoil: 'https://i.ibb.co/9HJ1xJd/M45A1.png', ergo: null, supp: 'none'}
 );
 
-featuredMods.push(
+/*featuredMods.push(
     {name: 'Colt M1911A1', link: 'https://i.ibb.co/1sNCLDg/M1911.png'},
     {name: 'FN P90', link: 'https://i.imgur.com/ggTKOF6.png'}
-);
+);*/
 
 exports.run = (bot, message, args) => {
     var temp, txt, count = 0;
@@ -107,7 +107,7 @@ exports.run = (bot, message, args) => {
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
-            if('featured'.includes(txt))
+            /*if('featured'.includes(txt))
             {
                 var d = new Date();
                 var now = d.getDate + d.getMonth + d.getFullYear;
@@ -123,7 +123,8 @@ exports.run = (bot, message, args) => {
                 message.channel.send(modMessage);
                 break;
             }
-            else if(mod[i].id.includes(txt))
+            else */
+            if(mod[i].id.includes(txt))
             {
                 temp++;
                 if(temp == args.length)
