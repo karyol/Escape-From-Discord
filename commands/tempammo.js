@@ -355,10 +355,10 @@ exports.run = (bot, message, args) => {
                     count++;
                 }
 
-                if(count >= 4)
-                {
-                    return;
-                }
+                // if(count >= 4)
+                // {
+                //     return;
+                // }
             }
             else
             {
