@@ -3,7 +3,7 @@ const fs = require('fs');
 const Enmap = require('enmap');
 //const auth = require('./auth.json');
 
-const bot = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS] });
+const bot = new Discord.Client();
 
 bot.commands = new Enmap();
 
