@@ -331,9 +331,6 @@ weapons.push(
 
 exports.run = (bot, message, args) => {
     var temp, txt, count = 0, ammoTxt, tempArray;
-    
-    ammoMessage.setTitle("Results count: " + args.length);
-    message.channel.send(ammoMessage);
     for(var i = 0; i < weapons.length; i++)
     {
         temp = 0;
@@ -368,6 +365,10 @@ exports.run = (bot, message, args) => {
                 break;
             }
         }
+        
+        ammoMessage.setTitle("Results count: " + count);
+        ammoMessage.setDescription('none');
+        message.channel.send(ammoMessage);
     }
 };
 
