@@ -330,12 +330,12 @@ weapons.push(
 );
 
 exports.run = (bot, message, args) => {
-    var temp, txt, count = 0, ammoTxt, tempArray;
+    var temp, txt, count = 0, ammoTxt;
     ammoTxt = '';
     for(var i = 0; i < weapons.length; i++)
     {
         temp = 0;
-        tempArray = new Array();
+        // tempArray = new Array();
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
@@ -345,14 +345,10 @@ exports.run = (bot, message, args) => {
                 if(temp == args.length)
                 {
                     // ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
-                    tempArray = ammo[weapons[i].cal];
-                    for(var k = 0; k < tempArray.length; k++)
-                    {
-                        ammoTxt += (k + 1) + tempArray[k].type + '\n';
-                    }
                     // ammoMessage.setDescription(ammoTxt);
                     // message.channel.send(ammoMessage);
                     count++;
+                    ammoTxt += count + ". " + weapons[i].cal + '\n';
                 }
 
                 // if(count >= 4)
@@ -366,10 +362,110 @@ exports.run = (bot, message, args) => {
             }
         }
     }
+
+    const filter = (reaction, user) => {
+        return ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣'].includes(reaction.emoji.name) && user.id === message.author.id;
+    };
     ammoMessage.setTitle("Results count: " + count);
     ammoMessage.setDescription(ammoTxt);
-    message.channel.send(ammoMessage);
+    message.channel.send(ammoMessage).then(ammoMessage => {
+        if(count >= 1) ammoMessage.react("1️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 2) ammoMessage.react("2️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 3) ammoMessage.react("3️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 4) ammoMessage.react("4️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 5) ammoMessage.react("5️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 6) ammoMessage.react("6️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 7) ammoMessage.react("7️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 8) ammoMessage.react("8️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+        if(count >= 9) ammoMessage.react("9️⃣").then(() => {
+            if(ammoMessage.reactions.cache.size === count) {
+                ammoMessage.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] }).then(collected => {
+                    ammoMessage.delete();
+                    sendAmmoMessage(message, collected);
+                });
+            }
+        });
+    });
 };
+
+function sendAmmoMessage(message, collected) {
+    const reaction = collected.first();
+    if (reaction.emoji.name === '1️⃣') {
+        message.channel.send('1');
+    } else if(reaction.emoji.name === '2️⃣') {
+        message.channel.send('2');
+    } else if(reaction.emoji.name === '3️⃣') {
+        message.channel.send('3');
+    } else if(reaction.emoji.name === '4️⃣') {
+        message.channel.send('4');
+    } else if(reaction.emoji.name === '5️⃣') {
+        message.channel.send('5');
+    } else if(reaction.emoji.name === '6️⃣') {
+        message.channel.send('6');
+    } else if(reaction.emoji.name === '7️⃣') {
+        message.channel.send('7');
+    } else if(reaction.emoji.name === '8️⃣') {
+        message.channel.send('8');
+    } else if(reaction.emoji.name === '9️⃣') {
+        message.channel.send('9');
+    }
+}
 
 exports.help = {
     name: 'ammo'
