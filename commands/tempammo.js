@@ -365,11 +365,10 @@ exports.run = (bot, message, args) => {
                 break;
             }
         }
-        
-        ammoMessage.setTitle("Results count: " + count);
-        ammoMessage.setDescription('none');
-        message.channel.send(ammoMessage);
     }
+    ammoMessage.setTitle("Results count: " + count);
+    ammoMessage.setDescription('none');
+    message.channel.send(ammoMessage);
 };
 
 exports.help = {
