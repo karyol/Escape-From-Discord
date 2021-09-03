@@ -344,13 +344,13 @@ exports.run = (bot, message, args) => {
                 temp++;
                 if(temp == args.length)
                 {
-                    ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
+                    // ammoMessage.setTitle(weapons[i].name + ' - ' + weapons[i].cal);
                     tempArray = ammo[weapons[i].cal];
                     for(var k = 0; k < tempArray.length; k++)
                     {
-                        ammoTxt += tempArray[k].type + ' - Damage: ' + tempArray[k].dmg + ' - Penetration: ' + tempArray[k].pen + '\n';
+                        ammoTxt += (k + 1) + tempArray[k].type + '\n';
                     }
-                    ammoMessage.setDescription(ammoTxt);
+                    // ammoMessage.setDescription(ammoTxt);
                     // message.channel.send(ammoMessage);
                     count++;
                 }
@@ -367,7 +367,7 @@ exports.run = (bot, message, args) => {
         }
     }
     ammoMessage.setTitle("Results count: " + count);
-    ammoMessage.setDescription('none');
+    ammoMessage.setDescription(ammoTxt);
     message.channel.send(ammoMessage);
 };
 
