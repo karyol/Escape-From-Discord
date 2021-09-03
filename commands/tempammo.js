@@ -331,10 +331,10 @@ weapons.push(
 
 exports.run = (bot, message, args) => {
     var temp, txt, count = 0, ammoTxt, tempArray;
+    ammoTxt = '';
     for(var i = 0; i < weapons.length; i++)
     {
         temp = 0;
-        ammoTxt = '';
         tempArray = new Array();
         for(var j = 0; j < args.length; j++)
         {
