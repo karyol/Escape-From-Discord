@@ -331,14 +331,14 @@ weapons.push(
 
 exports.run = (bot, message, args) => {
     var temp, txt, count = 0, ammoTxt, tempArray;
+    
+    ammoMessage.setTitle("Results count: " + args.length);
+    message.channel.send(ammoMessage);
     for(var i = 0; i < weapons.length; i++)
     {
         temp = 0;
         ammoTxt = '';
         tempArray = new Array();
-        ammoMessage.setTitle("Results count: " + args.length);
-        message.channel.send(ammoMessage);
-        // break;
         for(var j = 0; j < args.length; j++)
         {
             txt = args[j].toLowerCase();
